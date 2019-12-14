@@ -1,7 +1,7 @@
 ---
 title: markdown基本语法
 tags:
-  - 博客
+  - blog
   - markdown
 categories:
   - 基础

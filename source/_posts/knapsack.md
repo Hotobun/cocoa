@@ -1,12 +1,14 @@
 ---
-title: 动态规划习题
+title: 01背包问题
 date: 2019-12-04 23:40:53
-tags: 动态规划
+tags: 
+- 算法
+- c
+- python
 categories: 算法
-cover: /img/dynamic.png
+cover: /img/knapsack.png
 ---
 
-## 01背包问题
 有n个物品，它们有各自的体积和价值，现有给定容量20的背包，如何让背包里装入的物品具有最大的价值总和？  
   
 编号|重量|价格  
@@ -22,7 +24,7 @@ k，C遍历物品及背包容量
 
 例如：    
 
-![](/img/dynamic01.png)
+![](/img/archive_img/knapsack.png)
 
 极端条件 最后一个物品 重量等于背包容量20 而这个物品价值999    
 k的循环最后一次是    
@@ -47,16 +49,19 @@ B[5][1] 直接装入前一个格子的最优价格 依次类推
  
 最后对比 得出这个容量的最优价钱
 
-```  
+<details>
+  <summary> c </summary>  
+
+``` c
 # include <stdio.h>
 # include <stdlib.h>
 # define N 6
 # define W 21
-
+ 
 int B[N][W] = { 0 };
 int w[6] = { 0,2,3,4,5,9 };
 int v[6] = { 0,3,4,5,8,10 };
-
+ 
 void knapsack() {
 	int k, C;
 	for (k = 1; k < N; k++) {
@@ -77,17 +82,21 @@ void knapsack() {
 		}
 	}
 }
-
+ 
 int main(void) {
 	knapsack();
 	printf("%d \n", B[5][20]);
 	system("pause");
 	return 0;
-}
-```
-
-```
-# python 
+}  
+```  
+</details>   
+  
+  
+<details>  
+  <summary> python </summary>  
+  
+``` python  
 def func():
     W = 21
     w = [0,2,3,4,5,9]
@@ -104,6 +113,6 @@ def func():
                 value2 = B[k-1][C]
                 B[k][C] = max(value1,value2)
     return B[-1][-1]
-```
+```  
   
-***
+</details>    

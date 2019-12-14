@@ -10,23 +10,21 @@ cover: /img/sqlalchemy.png
 
 ## 使用SQLAlchemy去连接数据库：
 使用SQLALchemy去连接数据库，需要使用一些配置信息，然后将他们组合成满足条件的字符串：  
-```
-# python
+``` python
 HOSTNAME = '127.0.0.1'
 PORT = '3306'
 DATABASE = 'first_sqlalchemy'
 USERNAME = 'root'
 PASSWORD = 'root'
-
+ 
 # dialect+driver://username:password@host:port/database
 DB_URI = "mysql+pymysql://{username}:{password}@{host}:{port}/{db}?charset=utf8".format(username=USERNAME,password=PASSWORD,host=HOSTNAME,port=PORT,db=DATABASE)
 ```
 
 然后使用`create_engine`创建一个引擎`engine`，然后再调用这个引擎的`connect`方法，就可以得到这个对象，然后就可以通过这个对象对数据库进行操作了：
-```
-# python
+``` python
 engine = create_engine(DB_URI)
-
+ 
 # 判断是否连接成功
 conn = engine.connect()
 result = conn.execute('select 1')
@@ -40,18 +38,18 @@ print(result.fetchone())
 
 ## 将ORM模型映射到数据库中：
 1. 用`declarative_base`根据`engine`创建一个ORM基类。
-    ```
+    ``` python 
     from sqlalchemy.ext.declarative import declarative_base
     engine = create_engine(DB_URI)
     Base = declarative_base(engine)
     ```
 2. 用这个`Base`类作为基类来写自己的ORM类。要定义`__tablename__`类属性，来指定这个模型映射到数据库中的表名。
-    ```python
+    ``` python
     class Person(Base):
         __tablename__ = 'person'
     ```
 3. 创建属性来映射到表中的字段，所有需要映射到表中的属性都应该为Column类型：
-    ```python
+    ``` python
     class Person(Base):
         __tablename__ = 'person'
         # 2. 在这个ORM模型中创建一些属性，来跟表中的字段进行一一映射。这些属性必须是sqlalchemy给我们提供好的数据类型。
@@ -64,7 +62,7 @@ print(result.fetchone())
 
 ## 用session做数据的增删改查操作：
 1. 构建session对象：所有和数据库的ORM操作都必须通过一个叫做`session`的会话对象来实现，通过以下代码来获取会话对象：
-    ```python
+    ``` python
     from sqlalchemy.orm import sessionmaker
 
     engine = create_engine(DB_URI)
@@ -72,19 +70,19 @@ print(result.fetchone())
     ```
 2. 添加对象：
     * 创建对象，也即创建一条数据：
-        ```python
+        ``` python
         p = Person(name='zhiliao',age=18,country='china')
         ```
     * 将这个对象添加到`session`会话对象中：
-        ```python
+        ``` python
         session.add(p)
         ```
     * 将session中的对象做commit操作（提交）：
-        ```python
+        ``` python
         session.commit()
         ```
     * 一次性添加多条数据：
-        ```python
+        ``` python
         p1 = Person(name='zhiliao1',age=19,country='china')
         p2 = Person(name='zhiliao2',age=20,country='china')
         session.add_all([p1,p2])
@@ -104,13 +102,13 @@ print(result.fetchone())
     person = session.query(Person).first()
     ```
 4. 修改对象：首先从数据库中查找对象，然后将这条数据修改为你想要的数据，最后做commit操作就可以修改数据了。
-    ```python
+    ``` python
     person = session.query(Person).first()
     person.name = 'ketang'
     session.commit()
     ```
 5. 删除对象：将需要删除的数据从数据库中查找出来，然后使用`session.delete`方法将这条数据从session中删除，最后做commit操作就可以了。
-    ```python
+    ``` python
     person = session.query(Person).first()
     session.delete(person)
     session.commit()

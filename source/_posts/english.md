@@ -1,0 +1,877 @@
+---
+title: 工地英语
+date: 2019-12-06 10:12:03
+tags:
+- English 
+categories: 基础 
+cover: /img/english.png
+---
+## 01 英语五种基本句式
+1. Subject(主语) + Verb（谓语）  
+<details>
+  <summary> The universe remains.   </summary>
+  宇宙长存
+</details>
+
+2. Subject(主语) + L.V(系动词) + P(表语)  
+<details>
+  <summary> The food is delicious.  </summary>
+  这个食物很好吃
+</details>
+
+3. Subject(主语) + Verb(谓语) + Object(宾语)
+<details>
+  <summary> He took his bag and left. </summary>
+  他拿着书包离开了
+</details>   
+
+4. S(主语) + V(谓语) + I.o(间接宾语) + D.o（直接宾语）
+<details>
+  <summary>Her father bought her a dictionary.</summary>
+  她的爸爸给她买了一本词典
+</details>  
+
+5. S(主语) + V(谓语) + O(宾语) + C(补语)
+<details>
+  <summary>We made him our monitor.</summary>
+  我们选他当班长
+</details> 
+
+***
+## 02 Be动词的形式
+be, is, am, are, was, were, being, baen 
+
+主语|现在|过去  
+:--|:--:|:--:
+I (第一人称)|am|was  
+He,She,It(第三人称单数)|is|was
+You,We,They(第二人称单数、复数；第一第三人称复数)|are|were
+
+动词的用法:  
+  后面接名词、形容词、地点副词、或短语做补足语  
+<details>
+  <summary> The man is back. </summary>
+  这个男人回来了 (单数主语 )
+</details>  
+<details>
+  <summary> They are back. </summary>
+  他们回来了 (复数主语 )
+</details>  
+<details>
+  <summary> He was back </summary>
+  他回来了   (过去时态 )
+</details>  
+<details>
+  <summary> They were back. </summary>
+  他们回来了 (过去时态)
+</details>  
+<details>
+  <summary> They have been back. </summary>
+  他们已经回来了 (现在完成时)
+</details>  
+<details>
+  <summary> The man is a teacher. </summary>
+  这个男人是一名教师
+</details>  
+<details>
+  <summary> Mary's new dresses are colorful. </summary>
+  玛丽的新裙子是五颜六色的
+</details>  
+<details>
+  <summary> My mother was in the kitchen. </summary>
+  我的妈妈在厨房里 
+</details>  
+练习：
+<details>
+  <summary> 他们是老师 </summary>
+  They are teachers.
+</details>  
+<details>
+  <summary> 他以前是一名老师 </summary>
+  He was a teacher before.
+</details>  
+<details>
+  <summary> 他已经当了3年的老师 </summary>
+  He has been a teacher for 3 years.
+</details>  
+
+***  
+## 03 Be动词的否定
+在am, is, are, was, were 后面加not.  
+缩略式：am not; isn't, aren't, wasn't, weren't  
+<details>
+  <summary> The man isn't back. </summary>
+  这个男人没有回来
+</details>  
+<details>
+  <summary> I am not back. </summary>
+  我没有回来
+</details>  
+<details>
+  <summary> They aren't back. </summary>
+  他们没有回来
+</details>  
+<details>
+  <summary> He wasn't back. </summary>
+  他没有回来 （单数过去时）
+</details>  
+<details>
+  <summary> They weren't back. </summary>
+  他们没有回来 (复数过去时)
+</details>  
+<details>
+  <summary> Is he a teacher? </summary>
+  他是一名老师吗  
+  yes,he is. / No,he isn't.
+</details>  
+<details>
+  <summary> Are you a teacher? </summary>
+  你是一名老师吗?  
+  Yes,I am. / No,I am not.
+</details>  
+<details>
+  <summary> Were they teachers? </summary>
+  他们以前是老师吗？(过去时态句子)  
+  Yes,they were. / No,they weren't
+</details>  
+
+练习:  
+<details>
+  <summary> 他是一名医生吗? </summary>
+  Is he a doctor?
+  Yes,he is.  /  No,he isn't.
+</details>  
+<details>
+  <summary> 他们昨天在教室吗? </summary>
+  Were they in the classroom yesterday?  
+  Yes, they were. / No, they weren't.
+</details>  
+<details>
+  <summary> 他们不在教室。 </summary>
+  They weren't in the classroom yesteday
+</details>
+
+***  
+## 04 代词的主格和宾格 
+主| 宾|形容词性物主代词|名词性物主代词
+:--:|:--:|:--:|:--:
+i|me|my|mine
+he|him|his|his
+she|her|her|hers
+it|it|its|its
+you|you|your|yours
+we|us|our|ours
+they|them|their|theirs
+
+1. I am a teacher. 
+2. He is a teacher.
+3. You are teachers.
+4. He likes me.
+5. We like her.
+6. I like them.
+7. Life is short, i use python.
+8. I like it.
+9. They know him.
+
+***
+## 05 名词性、形容词性物主代词
+1. This is my book.
+2. We love our motherland.
+3. Those are your socks.
+4. The book is ours.
+5. The apple is hers. 
+6. My teacher is a chinese.
+7. This computer is theirs.
+8. Our book is on the shelf. 
+
+## 06 反身代词
+有两个作用 做宾语 或 同位语 表示某人自己  
+myself 
+yourself 
+herself 
+himself
+itself   
+yourselves
+ourselves
+themselves
+
+<details>
+  <summary> Please help yourself to some fish. </summary>
+  建议你为了自己吃点鱼
+</details>  
+<details>
+  <summary> We enjoyed ourselves last night. </summary>
+  我们昨天晚上很享受
+</details>  
+<details>
+  <summary> The thing itself is not important </summary>
+  这件事情本事并不重要 
+</details>  
+<details>
+  <summary> Take good care of yourself. </summary>
+  你好照顾好自己
+</details>  
+<details>
+  <summary> She gained control of herself. </summary>
+  她控制住了自己
+</details>  
+
+***
+## 07 实意动词的特征
+动词应该有时态上的变化  
+come, read, go, watch, play, fly  
+<details>
+  <summary> He comes from ShangHai. </summary>
+  他从上海回来 (一般现在时主语第三人称 一般现在时 )
+</details>  
+<details>
+  <summary> She is reading story books. </summary>
+  她正在阅读故事书 (现在进行时)
+</details>  
+<details>
+  <summary> They went to America yesteday. </summary>
+  他们昨天去美国了 (went是go的一般过去时)
+</details>  
+<details>
+  <summary> We have watched the game for three time. </summary>
+  我们已经看这个游戏3遍了 (现在完成时)
+</details>  
+<details>
+  <summary> My mother will fly back to China next month. </summary>
+  我的妈妈将会在下个月飞回中国(动词将来时 动词不发生变化 在动词前面加will)
+</details>  
+<details>
+  <summary> 他昨天来上海了 </summary>
+  He come to ShangHai yesterday (come的过去时)
+</details>  
+<details>
+  <summary> 我们正在写作业 </summary>
+  We are writing homework.
+</details>  
+<details>
+  <summary> 他们已经读这本书3遍了 </summary>
+  They have read this book three times.
+</details>  
+
+***
+## 08 实意动词的否定 提问 回答
+####  使用助动词进行否定  
+在助动词do, does, did 后面加 not  
+1. do：do是动词原形。  
+2. did：did是do的过去式。  
+3. does：does是do的第三人称单数现在时形式。  
+
+
+* do not -> don't 
+* does not -> doesn't  
+* did not -> didn't  
+
+<details>
+  <summary> I don't go to school by bus. </summary>
+  我没有坐公共汽车去学校(一般现在 非第三人称 不管单数复数 )
+</details>  
+<details>
+  <summary> She doesn't watch TV everyday </summary>
+  她每天不看电视 (实意动词否定形式 单三助动词)
+</details>  
+<details>
+  <summary> They didn't swim last night. </summary>
+  他们昨天晚上没有游泳 (过去时态助动词did )
+</details>  
+
+#### 使用助动词进行提问  
+<details>
+  <summary> He often plays golf. </summary>
+  他经常打高尔夫球吗？<br>      
+  Does he often play golf?<br>      
+  Yes,he does. /  No,he doesn't<br>    
+</details>  
+<details>
+  <summary> They go to school by bus. </summary>
+  他们坐公共汽车去学校. (陈述句)<br>
+  Do they go to school by bus?<br>      
+  （一般现在时 主语非单三 使用原型they）<br>      
+  Yes,they do. / No,they don't    
+</details>  
+<details>
+  <summary> Sam had breakfast yesterday. </summary>
+  山姆昨天吃早饭了(had一般过去时) <br>
+  Did sam have breakfast yesteday?（过去式）  <br>
+  Yes,he did. / No,he didn't.  
+</details>  
+<details>
+  <summary> 他每天都学英语吗? </summary>
+  Does he learn English everyday? <br>
+  Yes, he does. / No, he doesn't.      
+</details>  
+<details>
+  <summary> 汤姆昨天没吃早饭 </summary>
+  Tom didn't have breakfast yesterday.  
+</details>  
+
+***
+## 09 使用疑问词进行提问回答
+when 什么时候, where 什么地方, who谁, what什么, how如何、怎么    
+
+||||
+:--:|:--:|:--:|:--:
+when|什么时候|how long|多长时间
+where|什么地方|how far|多远
+who|谁|how often|多长时间一次
+what|什么|why|为什么
+who|如何、怎么||
+
+疑问词要放在句首  
+
+<details>
+  <summary> He bought three books yesterday. </summary>
+  他昨天买了三本书 
+</details>  
+<details>
+  <summary> 1. Who bought three books yesterday? </summary>
+  谁昨天买了三本书?
+</details>  
+<details>
+  <summary> 2. What did he buy yesterday? </summary>
+  他昨天买什么了?
+</details>  
+<details>
+  <summary> 3. When did he buy three books? </summary>
+  他什么时候买了三本书？
+</details>  
+
+<details>
+  <summary> They wanted to go to Shanghai by air </summary>
+  他们想坐飞机去上海
+</details>  
+<details>
+  <summary> 1. Who wanted to go to Shanghai by air? </summary>
+  谁想坐飞机去上海
+</details>  
+<details>
+  <summary> 2. Where did they want to go by air? </summary>
+  他们想坐飞机去哪里
+</details>  
+<details>
+  <summary> 3. How did they want to go to Shanghai? </summary>
+  他们想怎么去上海
+</details>  
+
+***   
+## 10 使用疑问词进行提问
+<details>
+  <summary> 1. They have been in China for three years. </summary>
+  他们已经在中国三年了  
+  How long have they been in China.  
+  他们在中国多久了
+</details>  
+<details>
+  <summary> 2. It is about 4 kilometers from Beijing to Xian </summary>
+  从北京到西安大约4公里
+  How far is it from Beijing to Xian  
+  从北京到西安有多远
+</details>  
+<details>
+  <summary> 3. They come to visit me once a week. </summary>
+  他们每周来看我一次  
+  How often do they come to visit me?  
+  他们多长时间来砍我一次
+</details>  
+<details>
+  <summary> 4. She came late,because she missed the bus. </summary>
+  她来晚了，因为她错过了公共汽车  
+  Why did she come late?  
+  她为什么吃到
+</details>  
+<details>
+  <summary> 1. 他们学汉语多长时间了 </summary>
+  How long have they learned Chinese.
+</details>  
+<details>
+  <summary> 2. 你多长时间看一次电影 </summary>
+  How often do you watch movies?
+</details>  
+<details>
+  <summary> 3. 你的家离学校多远? </summary>
+  How far is it from your house to your school?
+</details>  
+
+***
+## 11 名词
+#####  名词分为两类 
+1. 可数名词(countable noun)
+  * 是指数得过来的概念
+  * 存在复数 改变后缀
+  * apple 
+  * pencil  
+  * student 
+
+2. 不可数名词(uncountable noun)
+  * 无法计算的数量或抽象概念
+  * 无复数 只用单数表示
+  * salt 盐
+  * coffee 
+  * water 水
+  * history 历史 抽象
+ 
+##### 名词变复数规则
+1. 一般末尾加上后缀 s   `friend -> friends`
+2. 以s、z、x、ch、sh 结尾的词，在末尾加 es  `bus -> buses`  
+3. 辅音字母+y结尾的名词，将 y 改为 i 再加 es `candy -> candies`  
+4. 以 o 结尾的名词，如果不是外来词或缩写，就加 es  `hippo -> hippos`
+
+<details>
+  <summary> He bought me a box of chocolates </summary>
+  他给我买了一盒巧克力 (可是我看不到)
+</details>  
+
+***
+## 12 指示代词和不定代词
+#### 指示代词：
+* 标识人或事物的代词，用来代替前面已提到过的名词。
+* This(these),  that(those)
+
+<details>
+  <summary> This is his book. </summary>
+  这是他的书
+</details>  
+<details>
+  <summary> Those apples were his </summary>
+  那些苹果是他的
+</details>  
+
+#### 不定代词：
+* 指代不确定的人或事物
+* one, the other, some, any something, nothing.
+
+<details>
+  <summary> No one knows where he is. </summary>
+  没有人知道他在哪里
+</details>  
+<details>
+  <summary> Some of the boys want to go to Shanghai,but the others want to go to Beijing. </summary>
+  有一些男孩想去上海，但另一些男孩想去北京
+</details>  
+<details>
+  <summary> Each of the students has got a book. </summary>
+  每个学生都有一本书。
+</details>  
+ 
+<details>
+  <summary> 这些教师都是从中国来的 </summary>
+  These teachers are all from China
+</details>  
+
+<details>
+  <summary> 我对这个人一无所知 </summary>
+  I know nothing about this man
+</details>  
+
+<details>
+  <summary> 我有事要告诉你 </summary>
+  I have something to tell you
+</details>  
+
+## 13 形容词
+#### 形容词通常形容人或事物的状态、性质、大小等，通常在名词前，be动词后
+  * old - the old
+  * young - the young
+  * The old need more care than the young
+<details>
+  <summary> She is a good student. </summary>
+  她是一个好学生
+</details>  
+<details>
+  <summary> This bike is very expensive  </summary>
+  这辆自行车很贵
+</details>  
+<details>
+  <summary> Rich people sometimes complain about their empty lives </summary>
+  富人有时抱怨他们空虚的生活
+</details>  
+
+***
+## 14 副词
+#### 副词可以修饰动词，形容词，其他副词以及其他结构
+* Heruns fast.
+* She is very beautiful.
+* They work very hard.
+
+#### 副词的位置
+1. 根据情况，放在助动词之后，实意动词之前或之后。
+2. 形容词之前，其他副词之前或之后
+3. 多个助动词时，副词一般放在第一个助动词后  
+
+ 
+<details>
+  <summary> He speaks very fast. </summary>
+  他说的非常快
+</details>  
+<details>
+  <summary> They have already left. </summary>
+  他们已经离开了
+</details>  
+<details>
+  <summary> They have already been repaired </summary>
+  他们已经修好了
+</details>  
+
+#### 常用的频度副词的位置
+always, usually, often, sometimes, never ..  
+一般放在动词前面， be动词后面，助动词或实意动词之间。  
+<details>
+  <summary> They always come early. </summary>
+  他们总是来得很早
+</details>  
+<details>
+  <summary> Sam often writes homework at 7:00 </summary>
+  Sam通常在7:00写作业
+</details>  
+
+***
+##  15-17 不确定量表达法
+some any most every all 
+* some,any都表示一些  
+  * some主要用于肯定句，希望得到肯定回答时，也可用在疑问句中  
+  * any 主要用在否定和疑问句中    
+* most 作形容词时表示大部分的，后面接复数名词。   
+* every 表示"每一个"、"所有"，后面接单数名词  
+
+
+<details>
+  <summary> I'd been expecting some letters the whole morning, but there weren't any for me. </summary>
+  我整个上午都在等一些信，但对我没有等来信件  
+</details> 
+<details>
+  <summary> Most people here are from China. </summary>
+  这里大多数的人来自中国
+</details> 
+<details>
+  <summary> Every one likes the film. </summary>
+  每一个人喜欢这个电影
+</details>  
+<details>
+  <summary> All the cars are parked in the parking lot. </summary>
+  所有的车都停在停车场
+</details>  
+<details>
+  <summary> All the coffee is served on time  </summary>
+  所有的咖啡都按时供应
+</details>  
+<details>
+  <summary> Some boys went camping yesterday  </summary>
+  昨天有些男孩去野营了
+</details>  
+<details>
+  <summary> All the children like to play football </summary>
+  所有的小孩都喜欢踢足球
+</details>  
+<details>
+  <summary> Most teachers want to work here. </summary>
+  大多数老师都想在这里工作
+</details>  
+
+*** 
+* both   表示两者都，可做形容词、代词或副词
+* either 表示两者之一
+* neither 表示两者都不
+* many 修饰可数名词 表示许多
+* much 修饰不可数名词 表示许多
+* a lot of [lots of ], plenty of 均可修饰可数可不可数名词
+
+<details>
+  <summary> Both his eyes were severely  burned </summary>
+  他的双眼被严重烧伤
+</details>  
+<details>
+  <summary> There are trees on either side of the street. </summary>
+  街道两边都有树
+</details>  
+<details>
+  <summary> Neither answer is correct. </summary>
+  没有一个回答时正确的
+</details>  
+<details>
+  <summary> Both the hands are washed </summary>
+  双手都洗过了
+</details>  
+<details>
+  <summary> Sam drank a lot of coffee last night </summary>
+  Sam昨晚喝了很多咖啡
+</details>  
+
+*** 
+* a few 为肯定含义 "几个"
+* few 为否定含义 "没几个" 这两个词均和可数名词连用
+* a little 为肯定含义 "一点"
+* little 为否定含义的 "没多点" 这两个词均可和不可数名词连用
+* none 和 no one 的意思相同 主要做代词，翻译为"一个也不""一点也不"
+  * none 可以接of短语，动词可用单数也可以用复数
+  * no one 不能接of短语，动词只能用单数
+
+
+<details>
+  <summary> A few books are put into the box </summary>
+  几本书放在了盒子里面
+</details>  
+<details>
+  <summary> Few books are put into the box </summary>
+  没几本书放在了盒子里面
+</details>  
+<details>
+  <summary> There is a little water in the bottle. </summary>
+  瓶子里有点水。
+</details>  
+<details>
+  <summary> There is little water in the bottle. </summary>
+  瓶子里几乎没有水
+</details>  
+<details>
+  <summary> No one knows the answer. </summary>
+  没有一个人知道那个答案
+</details>  
+<details>
+  <summary> None of us have(has) arrived </summary>
+  我们当中没有任何一个人到了
+</details>  
+
+*** 
+## 18 Three here be句型
+* Three be 通常翻译成 "有"
+* Here be  通常翻译成 "是"  
+be动词根据后面的单词有单数复数的变化。
+
+<details>
+  <summary> There is a book on the bookshelf. </summary>
+  书架上面有一本书
+</details>  
+<details>
+  <summary> There are some books on the bookshelf. </summary>
+  在书架上有一些书
+</details>  
+<details>
+  <summary> Here is the bus stop. </summary>
+  这是汽车站
+</details>  
+<details>
+  <summary> Here are your books. </summary>
+  这些是你的书
+</details>  
+
+<details>
+  <summary> There is a lot of water in the bottle. </summary>
+  在瓶子里有一些水
+</details>  
+<details>
+  <summary> Here is your car. </summary>
+  这是你的车
+</details>  
+<details>
+  <summary> There are many students in the room. </summary>
+  在房间里有很多学生
+</details>  
+
+
+*** 
+## 19 一般现在时和现在进行时
+一般现在时 表示通常性、规律性、习惯性的状态或者动作。  
+主语是单数第三人称时 动词有单三的变化  
+主语是非第三人称单数时 动词为原型
+
+* 一般现在时 动词的单三变化：  
+  * 在动词尾直接加s 
+  * 以字母s, x, ch, o 结尾的动词 加es
+  * 以辅音字母 + y结尾的动词 先变y为i 再加es
+  * play -> plays 
+  * guess -> guesses
+  * studey -> studeies
+
+<details>
+  <summary> They often get up at 7:00 </summary>
+  他们经常在7点起床
+</details>  
+<details>
+  <summary> He often gets up at 7:00 </summary>
+  他经常在7点起床
+</details>  
+
+* 一般现在时否定和疑问句用do, doss帮助构成  
+
+<details>
+  <summary> He doesn't like the cat. </summary>
+  
+</details>  
+<details>
+  <summary> Does he like the car </summary>
+  Yes, he does. / No, he doesn't
+</details>  
+
+* 现在进行时表示现在正在进行或发生的动作。
+* 句子中通常有now 等时间副词呼应
+* 基本构成形式为 be + doing
+
+<details>
+  <summary> They are watching TV. </summary>
+  他们正在看电视
+</details>  
+<details>
+  <summary> He is watching TV. </summary>
+  他正在看电视
+</details>  
+<details>
+  <summary> I am watching TV. </summary>
+  我正在看电视
+</details>  
+
+* 动词现在分词的变化规则  
+  * 一般情况下 直接在动词后加 ing
+    * work -> working
+  * 动词以不发音的 e结尾， 要去e加ing
+    *  take -> taking 
+  * 重读闭音节的动词 要双写词尾字母 再加ing
+    * cut -> cutting
+  * 以 ie 结尾的动词 变y加ing  
+    * lie -> lying  
+
+* 现在进行时变否定句和疑问句时 将be动词否定或提前  
+1. They aren't watching Tv.  
+    Are the watching TV?  
+2. He isn'twatching TV.  
+    Is he watching TV?  
+3. Am i watching TV?  
+    yes,you are. / No, you aren't  
+
+
+<details>
+  <summary> He works very late everyday. </summary>
+  
+</details>  
+<details>
+  <summary> Do you study English yourself? </summary>
+  你自己学英语吗
+  Yes, i do 
+</details>  
+<details>
+  <summary> They are playing soccer now. </summary>
+  他们正在踢足球
+</details>  
+
+***
+## 20 一般过去和过去进行时
+* 一般过去时表示过去某个时间里发生了动作或状态 过去习惯性、经常性的行为
+* 基本结构：  
+  * 主语+动词过去式+其他 
+  * 一般动词在动词后面加ed 
+  * 还有一些不规则动词不规则变化
+
+play -> played   
+come -> came  
+
+<details>
+  <summary> She worked very hard last night. </summary>
+  昨晚他很努力
+</details>  
+<details>
+  <summary> They came here by car. </summary>
+  他们开车回来了
+</details>  
+
+* 动词一般过去时变化规则
+  * 一般在动词后加ed 
+    * play -> played 
+  * 在以字母e结尾的动词后只加 d
+    * like -> liked
+  * 在以 "辅音字母 + y" 结尾的动词后 该y为i再加ed
+    * supply -> supplied 
+  * 在以重读闭音节结尾且末尾只有一个辅音字母的动词后 双写最后一个辅音字母再加ed  
+    * plan -> planned
+
+* 过去进行时表示在过去某一时刻或某一时段内进行或法神改的动作
+  * 其形式为 was/were + doing   
+
+<details>
+  <summary> They were waiting for you.  </summary>
+  他们在等你
+</details>  
+<details>
+  <summary> He was talking with his friends just now. </summary>
+  他刚才正在和他的朋友聊天
+</details>  
+
+<details>
+  <summary> They went swimming. </summary>
+  
+</details>  
+<details>
+  <summary> Chino was watching TV at 19:00 last night </summary>
+  智乃昨天晚上7:00在看电视
+</details>  
+
+
+## 21 将来时
+* 一般将来时表示将来某一时刻的动作或状态 常常和表示将来的时间状语连用。
+  * tomorrow 明天
+  * next week 下周
+  * in the future 将来
+  
+* "助动词 will 或 shall + 动词原形"
+  * 表示将来发生的事情
+<details>
+  <summary> They will go to Shanghai by ship tomorrow. </summary>
+  他们将要在明天坐船去上海
+</details>  
+<details>
+  <summary> We shall leave for Shagnhai next month. </summary>
+  下个月我们要去上海
+</details>  
+
+* "be going to + 动词原形"
+  * 用来表示近期或事先考虑过的将要发生的动作
+  * 已有迹象表明必将发生的谋士
+  * 意为 "打算  就要  "
+
+<details>
+  <summary> They are going to play football this afternoon. </summary>
+  他们今天下午要去踢足球
+</details>  
+<details>
+  <summary> She is going to learn French next year. </summary>
+  她明年要学法语
+</details>  
+
+* "be doing "
+  * 表示位置转移的动词
+  * go, come, leave, start arrive,
+
+<details>
+  <summary> They are leaving for Japan </summary>
+  他们要离开去日本
+</details>  
+<details>
+  <summary> She is arriving tomorrow. </summary>
+  他明天到达
+</details>  
+
+<details>
+  <summary> They are coming here soon. </summary>
+  他们很快就要来了
+</details>  
+<details>
+  <summary> Miku is going learn Chinese next month. </summary>
+  初音下个月要去学中文
+</details>  
+<details>
+  <summary> Peter and Miki will finish the job tomorrow morning.  </summary>
+  Peter和miki将在明天早上完成工作
+</details>  
+
+
+
+
+
+
+
+
+
+
+

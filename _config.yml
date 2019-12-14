@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 馒
+title: 馒头屋
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Hoto cocoa
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://Hotobun.github.io/
+url: http://www.hotococoa.com/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -47,7 +47,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -55,7 +55,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 6
   order_by: -date
 
 # Category & Tag
@@ -96,7 +96,6 @@ theme: diaspora
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  repo: https://github.com/Hotobun/Hotobun.github.io.git
+  repo: git@149.129.109.42:/home/git/blog.git 
   branch : master
-
- 
+#  repo: https://github.com/Hotobun/Hotobun.github.io.git

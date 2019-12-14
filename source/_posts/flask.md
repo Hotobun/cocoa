@@ -137,14 +137,14 @@ app = Flask(__name__)
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 限制了16M 超出会抛 RequestEntityToolarge异常
 ```
 
-![flask1](/img/flask/1.png)
-![flask2](/img/flask/2.png)
+![flask1](/img/archive_img/flask1.png)
+![flask2](/img/archive_img/flask2.png)
 
 ***
 ##  静态文件  
 render_template 和 url_for 的应用:  
-![flask3](/img/flask/3.png)
-![flask4](/img/flask/4.png)
+![flask3](/archive_img/flask3.png)
+![flask4](/archive_img/flask4.png)
 
 html模版语言中  
 ```
@@ -159,12 +159,12 @@ html模版语言中
 render_template 渲染模版 默认传进的参数 带有html标签符会自动转义  
 如果想要从render_template传递带有标签符的内容 使用Markup函数：  
 \# 只有 Markup 不转义  
-![flask5](/img/flask/5.png)
-![flask6](/img/flask/6.png)
+![flask5](/img/archive_img/flask5.png)
+![flask6](/img/archive_img/flask6.png)
 
 ***
 ##  用户注册
-![flask7](/img/flask/7.png)  
+![flask7](/img/archive_img/flask7.png)  
 request.form 接收用户post的表单 用法与字典类似。  
 request.args 接收用户get的url参数  
 
@@ -183,8 +183,8 @@ app.config.from_object(config)
 使用mysql 依赖库： pymysql、 flask_sqlalchemy  
 * 创建 config.py
 * 写入 SQLALCHEMY_DATABASE_URI
-![flask8](/img/flask/8.png)
-![flask9](/img/flask/9.png)
+![flask8](/img/archive_img/flask8.png)
+![flask9](/img/archive_img/flask9.png)
 
 ***
 ## ORM模型
@@ -198,7 +198,7 @@ app.config.from_object(config)
 * nullable    --> 默认可为空  False则不允许为空  
 
 最后调用 db.create_all() 将模型创建到数据库
-![flask10](/img/flask/10.png)
+![flask10](/img/archive_img/flask10.png)
 
 *** 
 ## 数据库增删改查
@@ -241,10 +241,10 @@ def sql_xxx():
 
 ***
 ## flask_script 使用命令行操作Flask:
-![flask11](/img/flask/11.png)  
-![flask12](/img/flask/12.png)  
-![flask13](/img/flask/13.png)  
-![flask14](/img/flask/14.png)  
+![flask11](/img/archive_img/flask11.png)  
+![flask12](/img/archive_img/flask12.png)  
+![flask13](/img/archive_img/flask13.png)  
+![flask14](/img/archive_img/flask14.png)  
 
 ***
 ## 循环引用问题：

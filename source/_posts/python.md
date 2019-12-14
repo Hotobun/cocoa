@@ -1,5 +1,5 @@
 ---
-title: python 
+title: python常用
 date: 2019-12-04 23:34:16
 tags: python 
 categories: 基础 
@@ -25,3 +25,17 @@ a = l.sort(key = lambda x: os.path.join(target, x))
 ```
 
 ***
+
+## 查找元素出现次数
+``` python
+import requests
+r = requests.get("http://www.baidu.com")
+d = dict()
+for i in r.text:
+    if i in d:
+        d[i] += 1
+    else:
+        d[i] = 1
+for key,value in d.items():
+    print("{}: {}".format(key, value))
+```
