@@ -1,0 +1,61 @@
+# 头部菜单，title: link
+menu:
+  主页: http://www.hotococoa.com/
+  标签: /tags 
+  归档: /archives 
+#  分类: /categories 
+  
+# 是否显示目录
+TOC: false
+
+# 是否自动播放音乐
+autoplay: false
+
+# 默认音乐
+mp3: 
+  - http://www.hotococoa.com/music/re.mp3
+
+# 首页封面图, 为空时取文章的cover作为封面
+welcome_cover: /img/index.png
+
+# 默认文章封面图
+cover: /img/cover.png
+
+# 是否关闭默认滚动条
+scrollbar: true
+
+# Gitalk 评论插件（https://github.com/gitalk/gitalk）
+gitalk:
+    # 是否自动展开评论框
+    autoExpand: false
+    # 应用编号
+    clientID: '2275782fd492bd7192d5'
+    # 应用秘钥
+    clientSecret: '4bdaa80e28e4a5764b22cae20807e6c39ff3be4d'
+    # issue仓库名
+    repo: 'HexoGitalk'
+    # Github名
+    owner: 'Hotobun'
+    # Github名
+    admin: ['Hotobun']
+    # Ensure uniqueness and length less than 50hexo  
+    id: location.pathname
+    # Facebook-like distraction free mode
+    distractionFreeMode: false
+
+# 网站关键字
+keywords: cocoa
+
+# 要使用google_analytics进行统计的话，这里需要配置ID
+google_analytics: 
+
+# 网站ico
+favicon: /img/logo.png
+
+# rss文件
+rss: atom.xml
+
+ 
+
+
+  
