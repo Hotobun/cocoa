@@ -28,6 +28,7 @@ var description = '';
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
+    
     <% if (keywords) { %><meta name="keywords" content="<%= keywords %>"> <% } %>
     <% if (description) { %><meta name="description" content="<%= description %>"> <% } %>
     <% if (config.author){ %><meta name="author" content="<%= config.author %>"> <% } %>
@@ -45,4 +46,6 @@ var description = '';
     <script async custom-element="amp-auto-ads"
         src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
     </script>
+    <!--动态标题-->
+<script>document.addEventListener('visibilitychange',function(){if(document.visibilityState=='hidden'){normal_title=document.title;document.title='人呢？快回来！';}else{document.title=normal_title;}});</script>
 </head>

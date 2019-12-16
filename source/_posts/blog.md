@@ -24,7 +24,7 @@ cover: /img/blog.png
 `ssh-keygen -t rsa` 
 可以不用填 直接回车三连 
 看到下图大概ok
-```
+```  
 $ ssh-keygen -t rsa
 Generating public/private rsa key pair.
 Enter file in which to save the key (/c/Users/cocoa/.ssh/id_rsa):
@@ -111,7 +111,7 @@ server {
 
 #### 填写config
 
-```
+``` bash
 # Gitalk 评论插件（https://github.com/gitalk/gitalk）
 gitalk:
     # 是否自动展开评论框
