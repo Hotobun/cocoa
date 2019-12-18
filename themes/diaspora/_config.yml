@@ -6,7 +6,7 @@ menu:
 #  分类: /categories 
   
 # 是否显示目录
-TOC: false
+TOC: true
 
 # 是否自动播放音乐
 autoplay: false
