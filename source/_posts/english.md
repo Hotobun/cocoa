@@ -807,7 +807,7 @@ come -> came
   智乃昨天晚上7:00在看电视
 </details>  
 
-
+*** 
 ## 21 将来时
 * 一般将来时表示将来某一时刻的动作或状态 常常和表示将来的时间状语连用。
   * tomorrow 明天
@@ -865,13 +865,695 @@ come -> came
   Peter和miki将在明天早上完成工作
 </details>  
 
+*** 
+## 22 完成时
+* 现在完成时(have + p.p) 动作过去发生，已经完成，对现在造成影响或后果，动作可能还会持续。可使用的时间状语为：
+    * already 已经
+    * yet 还
+
+<details>
+  <summary> They have already arrived in Shanghai </summary>
+  他们已经到上海了
+</details>  
+<details>
+  <summary> She has played soccer for 3 hours. </summary>
+  她踢足球已经3小时了
+</details>  
+<details>
+  <summary> She hasn't finished the homework yet. </summary>
+  她还没有完成作业
+</details>  
+
+* 过去完成时(had + .p.p.)表示句中的动作发生在过去之前，即过去时过去，已经完成，对过去造成了一定影响或结果  
+
+<details>
+  <summary> They had arrived in Shanghai.  </summary>
+  他们已经到了上海  
+</details>  
+<details>
+  <summary> She had played soccer for 3 hours. </summary>
+  她踢了3个小时的足球  
+</details>  
+<details>
+  <summary> They hadn't finished the work yet. </summary>
+  他们还没有完成工作  
+</details>  
+<details>
+  <summary> He has stopped the car outside. </summary> 
+  他把车停在外面了   
+</details>  
+<details>
+  <summary> She hasn't been to Shanghai yet. </summary>
+  她还没去过上海  
+</details>  
+<details>
+  <summary> Had they planned to stay here? </summary>
+  他们计划留在这里吗？  
+</details>  
+
+*** 
+## 23 动词的用法
+根据动词功能 分为四类：
+* 实意动词 (Notional Verb)
+* 系动词 (Link Verb)
+* 助动词 (Auxiliary Verb)
+* 情态动词 (model Verb)
+
+1. 动词有数量和时态上的变化，通常分为三大时态：现在、过去、将来时
+2. 根据动作进项的状态可分为：一般时、进行时、完成时
+3. 使用动词时通常将（1）和（2）结合， 例如： 一般现在时、过去进行时...
+
+<details>
+  <summary> He goes to school every day. </summary>
+  他每天上学
+</details>  
+<details>
+  <summary> He went to hospital last night. </summary>
+  昨天晚上他去了医院
+</details>  
 
 
+* 动词形态变化规则：
+
+动词原形|单三|现在分词|过去式|过去分词 
+:--:|:--:|:--:|:--:|:--:
+play | plays| playing | played | played
+have | has | having | had | had 
+go | goes | going | went | gone
+
+***
+## 24 情态动词1 
+#### can/could/may/might
+1. can/could 表示能力，用be able to 代替
+    * can/could 现在/过去的能力
+    * 客观可能性(can的可能性大)
+2. may/might 表示可能性
+    * may的可能性大 
+    * 请求 允许，might更委婉
+
+<details>
+  <summary> He can/could/is able to swim. </summary>
+  他会游泳
+</details>
+<details>
+  <summary> He can/could come tomorrow. </summary>
+  他明天可以来
+</details>  
+<details>
+  <summary> Can/could i stay here? </summary>
+  我可以留在这吗
+</details>  
+<details>
+  <summary> He may/might come here by bus. </summary>
+  他可能乘公共汽车来这里
+</details>  
+<details>
+  <summary> May/might i join you ? </summary>
+  我可以和你一起去吗
+</details>  
+
+***
+## 25 情态动词2 
+#### should/ought to /must(have to )
+1. must/have to 表示必须、必要
+  * must表示主观多一些 
+  * have to 则表示客观多一些
+  * have to 有时态和数量的变化
+  * myst 和 have to 二者的否定意义不大相同
+  * You mustn't go 你不准去
+  * You don't have to go 你不必去
+2. Should 表示劝告、建议、命令，其同义词是ought to 
+  * should 强调主观看法
+  * ought to 强调客观要求
+  * 在疑问句中通常用 should 代替 ought to 
 
 
+<details>
+  <summary> You must get up early. </summary>
+  你必须早点起来
+</details>  
+<details>
+  <summary> It's going to rain,I have to go home now. </summary>
+  外面将要下雨了,我现在必须回家了
+</details>  
+<details>
+  <summary> You should/ought to do the job right now. </summary>
+  你现在应该做这项工作
+</details>  
+<details>
+  <summary> Should they stay here now? </summary>
+  他们现在应该留在这里吗？
+</details>  
+<details>
+  <summary> I must/have to  go and see my mother in hospital tomorrow. </summary>
+  我明天得去医院看我妈妈
+</details>  
+<details>
+  <summary> You should/ought to work harder than that. </summary>
+  你应该更加努力地工作
+</details>  
 
+***
+## 26 情态动词3
+####  need/don't have to 
+1. need "需要" 可作为：
+   * 情态动词 
+   * 实意动词 有第三人称单数和时态的变化，后面可以加带to 的不定式
+2. 回答must 和 have to 的提问句时 否定式使用needn't, don't have to等回答方式 
 
+情态动词:
+<details>
+  <summary> He need come here early. </summary>
+  他得早点来
+</details>  
+<details>
+  <summary> He needn't come here early. </summary>
+  他不必早到这儿来。
+</details>  
+<details>
+  <summary> Need he come here early? </summary>
+  她需要早点来吗  
+  Yes he need. / No he needn't
+</details>  
 
+实意动词:
+<details>
+  <summary> He needs to come here early. </summary>
+  他得早点来
+</details>  
+<details>
+  <summary> He doesn't need to come here early. </summary>
+  他不必早来
+</details>  
+<details>
+  <summary> Does he need to come here early? </summary>
+  他需要早点来吗  
+  Yes, he does. / No he doesn't
+</details>      
+  
 
+<details>
+  <summary> Must i come here early tomorrow? </summary>
+  我明天必须早点来吗？
+</details>  
+
+<details>
+  <summary> You needn't do it again. </summary>
+  你不需要重复做了
+</details>  
+<details>
+  <summary> He needn't worry about it. </summary>
+  这件事他无需担心
+</details>  
+<details>
+  <summary> Does he need to do homework first? </summary>
+  他需要先做作业吗
+</details>  
+
+*** 
+## 27 情态动词4 
+#### head better / would rather
+1. head better 表示"最好做某事"
+  * had虽然是过去式，但不表征过去
+  * better后面接动词原形
+2. would rather 表示 宁愿、宁可、最好、还是..为好 语感上比head better 要轻
+3. 否定形式分别为：
+  * had better not + 动词原形
+  * would rather not + 动词原形
+
+<details>
+  <summary> He had better eat more. </summary>
+  他最好多吃点 
+</details>  
+<details>
+  <summary> You'd better finish it right now. </summary>
+  你最好现在就做完
+</details>  
+<details>
+  <summary> You would rather deal with it now </summary>
+  你宁愿现在就处理
+</details>  
+<details>
+  <summary> He had better not eat more </summary>
+  他最好不要再吃了
+</details>  
+<details>
+  <summary> You would rather not deal with it now </summary>
+  你最好现在别处理那件事
+</details>  
+<details>
+  <summary> You had better stay here  </summary>
+  你最好留在这里
+</details>  
+<details>
+  <summary> I would rather not say it  </summary>
+  我宁愿不说
+</details>  
+
+***
+## 28 情态动词5 
+#### used do + v / would + v
+1. Used to , would 表示过去习惯性动作，可翻译为"过去常常..."
+  * Used to 可指过去的状态或情况， would 则不能
+  * Would 表示反复发生的动作，如果某一动作没有反复性，就不能用would，只能用used to 
+  * Used to 表示过去经常性或习惯性的动作或状态 现在已经结束了
+  * Would 表示有可能在发生
+ 
+<details>
+  <summary> The novel used to be popular. </summary>
+  这本小说过去很受欢迎
+</details>  
+<details>
+  <summary> He would practise English every week. </summary>
+  他过去每一周都练习英语
+</details>  
+<details>
+  <summary> I used to live in Beijing. </summary>
+  我过去住在背景
+</details>  
+<details>
+  <summary> People used to believe that the earth was flat </summary>
+  人们过去认为地球是平的
+</details>  
+<details>
+  <summary> He would go to the park as soon as he was free </summary>
+  他一有时间就会去公园
+</details>  
+<details>
+  <summary> The window used to be open. </summary>
+  这个窗户过去一直开着
+</details>  
+<details>
+  <summary> They would gather together every week. </summary>
+  他们每一周都聚在一起
+</details>  
+<details>
+  <summary> Sam used to  play golf, but he doesn't now. </summary>
+  萨姆过去常打高尔夫球，但现在不打了
+</details>  
+
+*** 
+## 29 情态动词否定和疑问
+1. 情态动词的否定：
+  * 情态动词 + not + v + 原形
+2. 使用情态动词进行提问：
+  * 情态动词 + 主语 + v原形
+
+<details>
+  <summary> He can't sing an English song </summary>
+  他不会唱英文歌
+</details>  
+<details>
+  <summary> He may not know her. </summary>
+  他可能不认识她
+</details>  
+<details>
+  <summary> He mustn't go there. </summary>
+  他不准许去那里
+</details>  
+<details>
+  <summary> He doesn't have to go there </summary>
+  他不必去那里
+</details>  
+
+<details>
+  <summary> Can he sing an English song? </summary>
+  他会唱一首英文歌吗？  
+  Yes, he can. / No, he can't
+</details>  
+<details>
+  <summary> Must he go there? </summary>
+  他一定要去那里吗？  
+  Yes, he must. / No, he needn't
+</details>  
+<details>
+  <summary> Does he have to go there? </summary>
+  他一定要去那里吗？
+  Yes,he does. / No, he doesn't 
+</details>  
+<details>
+  <summary> Can i stay here? </summary>
+  我可以留在这里吗  
+  Yes, please.
+</details>  
+<details>
+  <summary> Must she go back now? </summary>
+  她现在必须回去吗？  
+  No, she needn't
+</details>  
+<details>
+  <summary> Does he have to get up at 9:00? </summary>
+  他必须9点起床吗？  
+  Yes, he does! 
+</details>  
+
+*** 
+## 30 情态动词 + have + p.p
+1. 情态动词 + have + p.p
+  * 表达过去事实。
+  * 推测的含义
+2. should + have + p.p ： 本应该...做某事
+3. needn't have + p.p : 本不需要...
+4. must have p.p : 准是已经...
+5. can't have p.p : 不可能已经...
+
+<details>
+  <summary> He can/could have arrived. </summary>
+  他可能已经到达了
+</details>  
+<details>
+  <summary> He may/might have arrived. </summary>
+  他可能已经到了
+</details>  
+<details>
+  <summary> He must have arrived. </summary>
+  他一定到了
+</details>  
+<details>
+  <summary> He should have arrived. </summary>
+  他本来应该可以到了
+</details>  
+<details>
+  <summary> They should have finished the work </summary>
+  他们本该完成这项工作的
+</details>  
+<details>
+  <summary> You needn't have done so </summary>
+  你不必这么做
+</details>  
+<details>
+  <summary> He must have arrived. </summary>
+  他准是已经到了
+</details>  
+<details>
+  <summary> He can't have arrived. </summary>
+  他不可能已经到了
+</details>  
+<details>
+  <summary> He can have arrived. </summary>
+  他可能已经到了
+</details>  
+<details>
+  <summary> He must have arrived. </summary>
+  他一定已经到了 
+</details>  
+<details>
+  <summary> You needn't have done so. </summary>
+  你本不需要这么做
+</details>  
+<details>
+  <summary> They should have finished the work. </summary>
+  他不可能已经到了
+</details>  
+<details>
+  <summary> He can't have arrived </summary>
+  他不可能已经到了
+</details>  
+
+*** 
+## 31 被动语态1
+被动语态的构成和含义：
+1. 如果主语是动作的承受者，则用动词的被动语态做谓语.
+2. 被动语态的构成：
+  * be + 动词的过去分词(p.p) ... by sb.
+3. 被动语态有各种时态.
+
+<details>
+  <summary> He is taken to America by his mother </summary>
+  他被妈妈带到了美国
+</details>  
+<details>
+  <summary> The information is needed by us. </summary>
+  我们需要那份信息
+</details>  
+<details>
+  <summary> The book was being read by him. </summary>
+  他正在读那本书
+</details>  
+<details>
+  <summary> The computer has been used by her. </summary>
+  她用过这台电脑
+</details>  
+<details>
+  <summary> The room will be cleaned. </summary>
+  这个房间将要被打扫
+</details>  
+<details>
+  <summary> The computer could have been used by them  </summary>
+  他们可能用过电脑
+</details>  
+<details>
+  <summary> The information is needed  </summary>
+  需要这些信息
+</details>  
+<details>
+  <summary> The book was read </summary>
+  这本书是读过的
+</details>  
+<details>
+  <summary> The door has been opened  </summary>
+  门已经打开了
+</details>  
+<details>
+  <summary> The book was being read </summary>
+  这本书正在读
+</details>  
+<details>
+  <summary> The computer had been used </summary>
+  计算机已经被使用过
+</details>  
+<details>
+  <summary> The computer could have been used </summary>
+  这台电脑本来可以用的
+</details>  
+<details>
+  <summary> The room will be cleaned </summary>
+  房间将要打扫了
+</details>  
+
+***
+## 32 被动语态2
+被动语态和情态动词结合
+1. 被动语态可以和情态动词结合
+  * can/could + be + 动词过去分词
+  * may/might 
+  * must/havbe to 
+  * should/ought to 
+  * had better/ would rather
+  * used to / would 
+  * need + doing / to be +  动词过去分词
+
+<details>
+  <summary> The food could be taken away. </summary>
+  食物可以带走
+</details>  
+<details>
+  <summary> The food might be taken away </summary>
+  食物可能被带走了
+</details>  
+<details>
+  <summary> The food must be taken away </summary>
+  食物必须带走
+</details>  
+<details>
+  <summary> The food should be taken asay </summary>
+  食物应该带走
+</details>  
+<details>
+  <summary> The food needs taking away </summary>
+  食物需要带走
+</details>  
+<details>
+  <summary> The food had better be taken away </summary>
+  最好把食物拿走
+</details>  
+<details>
+  <summary> Books used to be returned in two days </summary>
+  过去两天内退还书籍
+</details>  
+<details>
+  <summary> The room may be cleaned. </summary>
+  房间可能打扫
+</details>  
+<details>
+  <summary> The door must be locked. </summary>
+  门必须上锁
+</details>  
+<details>
+  <summary> The house should be furnished. </summary>
+  这个房子应该要装修了
+</details>  
+<details>
+  <summary> The tree had better be watered now </summary>
+  现在最好给树浇水
+</details>  
+
+*** 
+## 33 被动语态3
+* 动作的行为者不分明，或不中啊哟，或上下文提到了行为者是，"by + 行为者"可省略  
+
+<details>
+  <summary> The information is needed. </summary>
+  该信息是必需的
+</details>  
+<details>
+  <summary> The book is being read </summary>
+  这本书正在被读
+</details>  
+<details>
+  <summary> The door waas opened </summary>
+  这个门被打开了
+</details>  
+<details>
+  <summary> The pencil had been sharpend </summary>
+  铅笔已经削尖了
+</details>  
+
+*** 
+## 34 被动语态4
+1. 被动语态的一般疑问句：
+  * 助动词+主语+(其他助动词)+动词过去分词
+2. 被动语态的特殊疑问句：
+  * 疑问词+助动词+主语+(其他助动词)+动词过去分词?
+ 
+<details>
+  <summary> Is the information needed by him? </summary>
+  这个信息被他需要吗    
+  Yes, it is. / No, it isn't  
+</details>  
+<details>
+  <summary> Has the computer been used by her? </summary>
+  计算机电脑已经被他用了吗    
+  Yes, it has ./  No, it hasn't  
+</details>  
+<details>
+  <summary> Will the room be cleaned? </summary>
+  房间将会被打扫干净吗    
+  Yes, it will. /No, it won't  
+</details>  
+<details>
+  <summary> The information is needed by them. </summary>
+  他们需要这些信息    
+  Whar is needed by them?  
+  他们需要什么？  
+</details>  
+<details>
+  <summary> The girl is taken to Shanghai ? </summary>
+  这个女孩被带到上海了吗？  
+  Where is the girl taken?    
+  女孩被带到了哪里
+</details>  
+<details>
+  <summary> The book has been read three times. </summary>
+  这本书已经读了三遍。  
+  How many times has the book been read?  
+  这本书已经读了多少遍了？
+</details>  
+<details>
+  <summary> Is the book being read by her? </summary>
+  她正在读那本书吗?
+</details>  
+<details>
+  <summary> Has the computer been used by them? </summary>
+  他们用过那台电脑吗?
+</details>  
+<details>
+  <summary> How often is the English class taken? </summary>
+  英语课多长时间上一次
+</details>  
+
+*** 
+## 35 非谓语动词1 
+#### to + 动词原形 vs.动词原形
+1. 动词不定式：
+  * 由to+动词原形构成。可以做主语、宾语、宾补、定于、表语、状语
+2. "动词原形+ing" 可作为名词用，具有动词特征和变化形式，但在句子中的用法及功能同名词：
+  * 在句子中可以作为主语、宾语、表语、定于。他可以被副词修饰或者支配宾语
+<details>
+  <summary> 主语: To get there by bike will take us an hour. </summary>
+  骑自行车到那里要花一个小时
+</details>  
+<details>
+  <summary> 宾语: The dirver failed to see the car in time </summary>
+  驾驶员未能及时看到汽车
+</details>  
+<details>
+  <summary> 宾补: We believe him to be guilty. </summary>
+  我们认为他是有罪的
+</details>  
+<details>
+  <summary> 定语: The next train to arrive is from Shagnhai  </summary>
+  下一班火车是从上海来的
+</details>  
+<details>
+  <summary> 表语: My suggestion is to put off the meeting. </summary>
+  我的建议是推迟会议
+</details>  
+<details>
+  <summary> 状语: I come here only to say goodbye to you </summary>
+  我来这里只是为了对你说再见
+</details>  
+<details>
+  <summary> Reading is an art. </summary>
+  阅读是一门艺术
+</details>  
+<details>
+  <summary> They went on walking and never stopped talking  </summary>
+  他们继续走着，从未停止说话
+</details>  
+<details>
+  <summary> Your task is quickly cleaning the windows </summary>
+  您的任务是快速清洁窗户
+</details>  
+<details>
+  <summary> This is a reading room. </summary>
+  这是一个阅览室
+</details>  
+<details>
+  <summary> To finish the work will take us an hour. </summary>
+  完成工作将花费我们一个小时
+</details>  
+<details>
+  <summary> I come here to say goodby to you </summary>
+  我来这跟你说再见
+</details>  
+<details>
+  <summary> Talking is an art </summary>
+  说话是一门艺术
+</details>  
+
+*** 
+## 36 非谓语动词2
+1. to不定式或动名词可以在主语的位置上，但一般用it代替它作为主语，这种情况it叫形式主语.
+2. 在宾语的位置上，用it代替它作形式宾语，这种情况较形式宾语
+3. 对名词或不定式进行否定时，在不定式或动名词前加not否定就可以了
+
+<details>
+  <summary>  It's a great honor to be invited. </summary>
+  被邀请很荣幸
+</details>  
+<details>
+  <summary> It is no use crying over spilt milk </summary>
+  为溢出的牛奶哭泣是没有用的
+</details>  
+<details>
+  <summary> We think it important to learn English </summary>
+  我们认为学英语很重要
+</details>  
+<details>
+  <summary> I found it pleasant walking in the park </summary>
+  我在公园散步很愉快
+</details>  
+<details>
+  <summary> He pretended not to see her </summary>
+  他假装没看见她
+</details>  
+<details>
+  <summary> He regrets not joining them </summary>
+  他很遗憾没有加入他们
+</details>  
+
+*** 
+## 37 非谓语动词
 
 
