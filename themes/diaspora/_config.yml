@@ -13,7 +13,7 @@ autoplay: false
 
 # 默认音乐
 mp3: 
-  - http://www.hotococoa.com/music/re.mp3
+  - https://www.hotococoa.com/music/re.mp3
 
 # 首页封面图, 为空时取文章的cover作为封面
 welcome_cover: /img/index.png
