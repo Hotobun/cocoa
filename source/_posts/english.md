@@ -1554,6 +1554,178 @@ go | goes | going | went | gone
 </details>  
 
 *** 
-## 37 非谓语动词
+## 37 非谓语动词3
+to不定式表示目的语法
+
+1. in order to + v 表示目的
+     * 由 in order to 引导的目的状语 值于句首句尾均可
+2. so as to + v 表示目的
+     * 由 so as to 引导的目的状语 只能置于句尾
+3. 他们的否定形式分别在to前面加not
+
+<details>
+  <summary> I've written it down in order to remember it. </summary>
+  我写下来是为了记住它
+</details>  
+<details>
+  <summary> He shouted and waved so as to be noticed. </summary>
+  他叫喊着挥手以便引起注意。
+</details>  
+<details>
+  <summary> I've written it down in order not to forget it. </summary>
+  我写下来是为了不忘记它。
+</details>  
+<details>
+  <summary> He said nothing so as not to be noticed. </summary>
+  他什么也没说，以免被人注意。
+</details>  
+<details>
+  <summary> He gets up early in order to arrive at school on time.</summary>
+  他早起是为了准时到校。
+</details>  
+<details>
+  <summary> He wrote it down in order not to forget it. </summary>
+  他写下来是为了不忘记它。
+</details>  
+
+*** 
+## 38 非谓语动词4  
+#### 常见的不定式和动名词  
+包含不定式和动名词的一些固定结构    
+1. too ~ to ...: 太...以至于不能...
+   * <details>
+        <summary> The room is too small to live  </summary>
+        这个房间太小了 以至于不能居住
+      </details>  
+2. enough + n + to + v /
+   * adj + enough _ to _ v : 足够...可以...
+   * <details>
+      <summary> The is enough food to eat. </summary>
+      这些食物足够吃
+    </details>  
+
+   * <details>
+      <summary> The box is bit enough to contain six apples. </summary>
+      这个盒子足够大 可以装6个苹果
+    </details>  
+3. On - int : ~ 一...就...
+   * <details>
+      <summary> On seeing the snake,the girl was very frightened. </summary>
+      看到那条蛇，女孩非常害怕。
+    </details>  
+4. There is no hope of ~ ing : 没希望...
+   * <details>
+      <summary> There is no hope of seeing him </summary>
+      没希望见到他
+    </details>  
+5. feel like -ing : 想要~
+   * <details>
+        <summary> I feel like eating ice cream not. </summary>
+        我不想吃冰淇淋。
+      </details>  
+ 
+6. have a hard time -ing : 做~很困难 
+   * <details>
+       <summary> They have a hard time solving the problem themselves.   </summary>
+           他们自己很难解决这个问题。
+     </details>  
+  
+
+<details>
+  <summary> There are enough books to read </summary>
+  有足够的书要读
+</details>  
+<details>
+  <summary> I feel like coffee </summary>
+  我想喝咖啡
+</details>  
+<details>
+  <summary> The room is too small to live  </summary>
+  这房间太小，住不下
+</details>  
+
+***
+## 39 非谓语动词5
+
+1. v+ing 可称之为动名词，也可称之为现在分词。 
+* <details>
+  <summary> Writing books is his job. </summary>
+  写书是他的工作。
+</details>
+
+* <details>
+  <summary> He is writing a book. </summary>
+  他正在写一本书。
+</details>  
+
+2. 动词的p.p.形式可称之为动词的过去分词 用在完成时和被动语态当中
+* <details>
+  <summary> He has written the homework. </summary>
+  他写了作业。
+</details>
+
+* <details>
+  <summary> The homework is written. </summary>
+  作业写好了。
+</details>  
+
+3. 分词句是包含现在分词和过去分词的分句.
+* <details>
+  <summary> The students went out of the classroom,laughing and talking. </summary>
+  The students went out of the classroom,laughing and talking.
+</details>  
+
+* <details>
+  <summary> Accompanied by his friend,he went to the railway station. </summary>
+  在朋友的陪同下，他去了火车站
+</details>  
+
+
+<details>
+  <summary> He likes drinking </summary>
+  他喜欢喝酒
+</details>  
+<details>
+  <summary> The door was locked </summary>
+  门是锁着的
+</details>  
+<details>
+  <summary> Given better attention,the plants could grow better. </summary>
+  如果给予更好的关注，这些植物会生长得更好。
+</details>  
+
+*** 
+## 40 原型不定式1
+#### 使役动词
+
+1. 使役动词 表示"使/让..."
+  * have, make, let 做使役动词 构成形式为：
+    * `have/meke/let + 宾语 + v`
+    * <details>
+        <summary> He made me laugh </summary>
+        
+      </details>
+        
+    * <details>
+        <summary> I let him go  </summary>
+        我让他走了
+      </details>  
+        
+    * <details>
+        <summary> Please have him come here. </summary>
+        请叫他过来。
+      </details>  
+2. `get`和`help`都做使役动词
+  * `get`的使役动词句为："get + 宾语 + to + v " 
+  * `help`的使役动词为 : "help + 宾语 + (to) + v"
+    * <details>
+        <summary> I can't get anyone to do the work properly. </summary>
+        我不能让任何人把工作做好。
+      </details>  
+
+    * <details>
+        <summary> I helped him (to) repair the car. </summary>
+        我帮他修车。
+      </details>  
 
 
