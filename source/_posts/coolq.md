@@ -49,8 +49,22 @@ Docker 是一个开源的应用容器引擎，让开发者可以打包他们的�
     `$ docker ps `
     `$ docker ps -a`
 
+## 重装
+``` bash
+# 查看id
+$ docker ps  
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+587c77c5faa4        coolq/wine-coolq    "/init.entrypoint st…"   10 seconds ago      Up 9 seconds        0.0.0.0:8080->9000/tcp   coolq
 
+# 删除容器
+$ docker rm 587c77c5faa4    
+587c77c5faa4
 
+# 运行酷Q镜像
+`$ docker run --name=coolq -d -p 8080:9000 -v /home/Hoto/coolq:/home/user/coolq -e VNC_PASSWD=hotcocoa -e COOLQ_ACCOUNT=3397937019 coolq/wine-coolq`  
+587c77c5faa4bfcca5bad9b1195806d1200764e0155bcbaafb905e327cc822ec    
+
+```
 
 
 

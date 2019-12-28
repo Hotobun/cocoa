@@ -22,6 +22,7 @@ https{
     server {  # 新增server 443为https默认端口
         listen 443 ssl;
         server_name hotococoa.com www.hotococoa.com;
+        root        /home/hexo;
 
         ssl_certificate /etc/nginx/cert/hotococoa.pem;   #name.pem替换成您证书的文件名。
         ssl_certificate_key /etc/nginx/cert/hotococoa.key;   #name.key替换成您证书的密钥文件名。
