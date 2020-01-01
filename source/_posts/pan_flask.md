@@ -233,3 +233,21 @@ $ nohup uwsgi --ini uwsgi.ini &
 
 ```
 
+### 关闭 
+```
+# 找到uwsgi进程pid
+$ lsof -i :23432 
+
+$ kill -9 pid
+
+# 查看nohup.out 还挺皮的
+...
+uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+```

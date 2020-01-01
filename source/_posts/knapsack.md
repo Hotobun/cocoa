@@ -3,7 +3,7 @@ title: 01背包问题
 date: 2019-12-04 23:40:53
 tags: 
 - 算法
-- c
+- c语言
 - python
 categories: 算法
 cover: /img/knapsack.png

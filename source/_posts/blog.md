@@ -132,3 +132,18 @@ gitalk:
     distractionFreeMode: false
 
 ```
+
+*** 
+## 修改表格宽度
+``` css
+# diaspora.css line 220
+# 修改 table-layout 
+# 源文件
+.content table {margin:15px 0;border-collapse:collapse;display:table;width:100%;table-layout:fixed;word-wrap:break-word;}
+ 
+# 修改后
+.content table {margin:15px 0;border-collapse:collapse;display:table;width:100%;table-layout:automatic;word-wrap:break-word;}
+```
+
+![](/img/archive_img/blog_table1.png)
+![](/img/archive_img/blog_table2.png)

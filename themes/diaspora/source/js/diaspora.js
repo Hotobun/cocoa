@@ -496,6 +496,7 @@ $(function() {
     if (comment.data('ae') == true){
         comment.click();
     }
-    console.log("%c Github %c","background:#24272A; color:#ffffff","","https://github.com/Fechin/hexo-theme-diaspora")
+    // console.log("%c Github %c","background:#24272A; color:#ffffff","","https://github.com/Fechin/hexo-theme-diaspora")
+    console.log("找工作\n我会的都在博客里了\n广州花都人\nqq: 527014401\nemail：hotococoa@qq.com")
 })
 

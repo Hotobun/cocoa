@@ -1,5 +1,5 @@
 ---
-title: Centos7挂使用酷Q机器人
+title: Centos7挂酷Q机器人
 date: 2019-12-20 16:12:28
 tags: 
 - QQ机器人
