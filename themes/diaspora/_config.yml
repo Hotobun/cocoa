@@ -1,5 +1,6 @@
 # 头部菜单，title: link
 menu:
+  whoami: /whoami
   主页: ''
   标签: /tags 
   归档: /archives 

@@ -2,7 +2,7 @@
 title: First article
 date: 2019-12-04 16:37:22
 tags: 
-- bolg
+- blog
 categories:
 - null
 cover: /img/one.png
