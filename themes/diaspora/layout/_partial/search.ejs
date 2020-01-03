@@ -1,0 +1,56 @@
+<!-- <link rel="stylesheet" href="/css/search.css"> -->
+
+<div class="hexosearch">
+    <style>
+        input {
+            outline: none;
+        }
+        input[type=search] {
+            -webkit-appearance: textfield;
+            font-family: inherit;
+            font-size: 100%;
+        }
+        
+        input::-webkit-search-decoration,
+        input::-webkit-search-cancel-button {
+            display: none;
+        }
+        input[type=search] {
+            border: solid 1px #ccc;
+            padding: 9px 9px 9px 9px;
+            width: 200px;
+            -webkit-border-radius: 10em;
+            -moz-border-radius: 10em;
+            border-radius: 10em;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            transition: all .5s;
+        }
+        
+        input[type=search]:focus {
+            width: 130px;
+            background-color: #fff;
+            border-color: #6dcff6;
+            margin-left: -11px;
+            margin-right: 11;
+            width: 330px;
+            -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+            -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+            box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+        }
+        
+        input:-moz-placeholder {
+            color: #999;
+        }
+        
+        input::-webkit-input-placeholder {
+            color: #999;
+        }
+    </style>
+    <div style="margin-top: 123px;text-align:center">
+        
+            <input id = "search" type="search" placeholder="积极开发中" style="text-align:center" onfocus="this.setAttribute('placeholder', ''); getFocus(this);" onblur="if (this.value == '') this.setAttribute('placeholder', '下次一定！');getBlur(this);" onkeypress="button_search_onkeypress()">
+            <input id = "search-btn" style="display: none;">
+         
+    </div>
+</div>
