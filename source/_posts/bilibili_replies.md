@@ -2,8 +2,9 @@
 title: 爬B站视频评论 
 date: 2019-12-25 11:12:31
 tags: 
-- mysql
-- spider
+- "mysql"
+- "spider"
+- "python"
 categories:
 cover: /img/bilibili_replies.jpg
 ---
