@@ -43,11 +43,6 @@
     </style>
  
 <script>
-    function button_search_onkeypress(){
-        var text = document.getElementById("search").value.toLowerCase();
-        // console.log("读取到的文本:"+ text );
-        get_posts(text);
-    }
     function get_posts(text){
         var posts = document.getElementsByClassName('timeline-item');
         // console.log(posts.length);
@@ -79,6 +74,11 @@
             document.getElementById('search_count').style = "display: none";
             posts[i].style = "display: none";
         }
+    }
+    function button_search_onkeypress(){
+        var text = document.getElementById("search").value.toLowerCase();
+        // console.log("读取到的文本:"+ text );
+        get_posts(text);
     }
 </script>
  
