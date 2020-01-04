@@ -7,6 +7,8 @@ categories:
 cover: /img/search.png
 ---
 
+#### [github](https://github.com/Hotobun/hexo-theme-diaspora-search)
+
 ### 搜索引擎
 搜索的本质就是寻找目标资源
 网页常用的搜索
@@ -125,6 +127,19 @@ type: "search"
 `themes/diaspora/layout/`文件夹下创建`search.ejs`
 
 代码整合到一个页面了 也不多 就没有做分开模块做css、js (懒)
+
+最后主题的_config.yml文件修改 menu
+
+```
+# 头部菜单，title: link
+menu:
+  主页: ''
+  标签: /tags 
+  归档: /archives 
+  搜索: /search
+```
+
+
 <details>
   <summary> search.ejs </summary>
 ``` html
