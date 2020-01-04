@@ -1,9 +1,9 @@
 ---
 title: Welcome 
 date: 9102-11-21 23:33:33
-tags:
+tags: blog
 categories:
-cover:
+cover: 
 ---
  
 >再次感谢原作者创作出这么精美的主题 [@Fechin](https://github.com/Fechin/hexo-theme-diaspora) [@LoeiFy](https://github.com/LoeiFy/Diaspora )

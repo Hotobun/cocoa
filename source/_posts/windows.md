@@ -1,9 +1,7 @@
 ---
 title: windows
 date: 2019-12-05 01:08:55
-tags: 
-- windows 
-categories: 基础
+tags: windows 
 cover: /img/windows.png
 ---
 
