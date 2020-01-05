@@ -1,4 +1,9 @@
 <% if (theme.gitalk != undefined){ %>
+    <div>
+    <h3 align="right">
+        <a href ="/valine/">Valine留言板</a>
+    </h3>
+    </div>
     <div id='gitalk-container' class="comment link"
         data-ae='<%=theme.gitalk.autoExpand%>'
         data-ci='<%=theme.gitalk.clientID%>'
@@ -8,4 +13,5 @@
         data-a='<%=theme.gitalk.admin%>'
         data-d='<%=theme.gitalk.distractionFreeMode%>'
     >查看评论</div>
+
 <%}%>
