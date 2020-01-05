@@ -12,6 +12,8 @@
                     <%- partial('_partial/tags') %>
                 <% } else if (page.type === 'categories') { %>
                     <%- partial('_partial/categories') %>
+                <% } else if (page.type === 'valine') { %>
+                    <%- partial('_partial/valine') %>
                 <% } else { %>
                         <%- page.content %>
                 <% } %>

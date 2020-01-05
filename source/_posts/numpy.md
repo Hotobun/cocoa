@@ -59,7 +59,9 @@ array.shape|ndarray对象的尺度,对于矩阵,n行m列
 array.size|ndarray对象元素个数,相当于.shape中n\*m的值  
 array.dtype| ndarray对象的元素类型
 array.itemsize|ndarray对象中每个元素的大小,以字节为单位
-  
+
+
+
 ***
 #### ndarray的元素类型
  
@@ -102,7 +104,7 @@ np.zeros_like(a)|根据数组a的形状生成一个全0数组
 np.full_like(a,val)|根据数组a的星创生成一个数组,每个元素值都是val
 np.linspace()|根据起止数据间距地填充数据,形成数组
 np.concatenate()|将两个或多个数组合并成一个新数组
-  
+
 
 
 <details>
@@ -116,15 +118,17 @@ array([ 1.,  4.,  7., 10.])
 >>> b = np.linspace(1,10,4,endpoint=False)
 >>> b 
 array([1.  , 3.25, 5.5 , 7.75])
-  
+   
 >>> np.concatenate((a,b))
 array([ 1.  ,  4.  ,  7.  , 10.  ,  1.  ,  3.25,  5.5 ,  7.75])
  
-``` 
-   
-</details>  
+```
 
+</details>  
+  
+  
 ***
+ 
 #### ndarray数组的维度变化
 
 方法|说明
@@ -170,9 +174,11 @@ array([[[1., 1., 1., 1.],   # c里面的元素为float
        [[1., 1., 1., 1.],
         [1., 1., 1., 1.],
         [1., 1., 1., 1.]]])
-```   
-</details>  
+```
 
+</details>  
+  
+  
 ***
 #### ndarray数组向列表转换
 
@@ -509,7 +515,10 @@ array([[193, 158],      # 为每个元素赋值一个抽取概率
 array([178, 113, 174, 128, 158, 193, 120, 156])
 
 ```
-  
-</details>  
 
+</details>  
+  
+  
 ***
+
+

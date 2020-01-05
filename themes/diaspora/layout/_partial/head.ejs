@@ -36,6 +36,8 @@ var description = '';
     <% if (theme.favicon){ %><link rel="icon" href="<%- url_for(theme.favicon) %>"> <% } %>
     <%- css(['//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css'])%>
     <%- css(['css/diaspora.css'])%>
+    <% if (page.type === 'valine') { %><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script> <% } %>
+    <% if (page.type === 'valine') { %><script src="/js/Valine.min.js"></script> <% } %>
     <!--
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   

@@ -5,7 +5,7 @@ menu:
   标签: /tags 
   归档: /archives 
   搜索: /search
-  留言板: /message
+  留言板: /valine
 #  分类: /categories 
 
   
@@ -51,7 +51,7 @@ gitalk:
 keywords: cocoa
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
-google_analytics: 
+google_analytics: false
 
 # 网站ico
 favicon: /img/logo.png
@@ -59,7 +59,14 @@ favicon: /img/logo.png
 # rss文件
 rss: atom.xml
 
- 
-
-
-  
+valine:
+  enable: true 
+  appid: 4rBYSOTW5UAqOcylo3X2k7fz-MdYXbMMI
+  appkey: ssBbhoUHeqPuMfSra1oSuITg
+  notify: true 
+  verify: false  
+  placeholder: 说点什么吧！ 
+  avatar: hide 
+  guest_info: nick # custom comment header
+  pageSize: 10 # pagination size
+  recordIP: false 

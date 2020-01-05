@@ -6,10 +6,10 @@
 title: 馒++
 subtitle: ''
 description: ''
-keywords:
+keywords: blog
 author: Hoto cocoa
 language: en
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -99,3 +99,5 @@ deploy:
   repo: git@149.129.109.42:/home/git/blog.git 
   branch : master
 #  repo: https://github.com/Hotobun/Hotobun.github.io.git
+
+
