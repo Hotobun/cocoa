@@ -1,9 +1,9 @@
 ---
-title: Numpy
+title: Numpy笔记
 date: 2020-1-01 18:01:17
 tags: 
 - python
-- 数据分析
+- numpy
 categories:
 cover: /img/numpy.png
 ---
@@ -354,7 +354,7 @@ CSV 只能有效存储一维和二维数组
 <details>
   <summary> 举个栗子 </summary>
 
-```
+``` python
 >>> import numpy as np
 >>> a = np.arange(100).reshape(5,20)
  
@@ -381,7 +381,7 @@ CSV 只能有效存储一维和二维数组
 <details>
   <summary> 举个栗子 </summary>
  
-```
+``` python
 # 读入时丢失维度信息
 >>> import numpy as np
 >>> a = np.arange(100).reshape(5,10,2)
@@ -425,7 +425,7 @@ poisson(lam,size)|产生具有泊松分布的数组,low起始值,high结束值,s
 <details>
   <summary> 举个栗子 </summary>
 
-```
+``` python
 >>> a = np.random.rand(3,4,5)
 >>> a           # a中每一个元素都是0-1的浮点数
 array([[[0.15452677, 0.25611673, 0.05996533, 0.30784688, 0.61076912],
@@ -520,5 +520,125 @@ array([178, 113, 174, 128, 158, 193, 120, 156])
   
   
 ***
+## Numpy的统计函数
+
+函数|说明 
+:--|:--
+sum(a, axis=None)|根据给定轴axis计算组a相关元素之和, axis整数或元祖
+mean(a, axis=None)|根据给定轴axis计算组a相关元素的期望, axis整数或元祖
+average(a, axis=None,weights=None)|根据给定轴axis计算组a相关元素的加权平均值
+std(a, axis=None)|根据给定轴axis计算组a相关元素的标准差
+var(a, axis=None)|根据给定轴axis计算组a相关元素的方差
+
+<details>
+  <summary> 举个栗子 </summary>
+
+``` python
+>>> a = np.arange(15).reshape(3,5)
+>>> a
+array([[ 0,  1,  2,  3,  4],
+       [ 5,  6,  7,  8,  9],
+       [10, 11, 12, 13, 14]])
+>>> np.sum(a)
+105
+ 
+>>> np.mean(a, axis=1)
+array([ 2.,  7., 12.])
+ 
+>>> np.mean(a, axis = 0)
+array([5., 6., 7., 8., 9.])
 
 
+```
+
+</details>  
+  
+  
+函数|说明 
+:--|:--
+min(a) max(a) | 计算数组a中元素最小值、最大值
+argmin(a) argmax(a) | 计算数组a中元素最小值、最大值的降一维后下标
+unravel_index(index,shape)| 根据shape将一维下标index转换成多维下标
+ptp(a) | 计算数组a中元素最大值与最小值的差
+median(a) | 计算数组a中元素的中位数 (中值)
+
+<details>
+  <summary> 举个栗子 </summary>
+
+```
+>>> b = np.arange(15,0,-1).reshape(3,5)
+>>> b
+array([[15, 14, 13, 12, 11],
+       [10,  9,  8,  7,  6],
+       [ 5,  4,  3,  2,  1]])
+        
+>>> np.max(b)
+15
+ 
+>>> np.argmax(b)
+0
+
+>>> np.unravel_index(np.argmax(b),b.shape)
+(0, 0)
+
+>>> np.ptp(b)
+14
+
+>>> np.median(b)
+8.0
+```
+
+</details>  
+  
+  
+***
+
+
+## Numpy梯度函数
+只有一个 
+函数|说明 
+:--:|:--:
+np.gradient(f)|计算数组f中元素的梯度, 当f为多维时, 返回每个维度的梯度
+
+梯度：
+  * 连续值之间的变化率,  即斜率。
+  * XY坐标轴连续三个X坐标对应的Y轴值: a,b,c,  其中b的梯度是： (c-a)/2
+
+梯度有什么用？
+  * 梯度反映了元素的变化率。有助于发现图像、声音边缘。
+
+<details>
+  <summary> 举个栗子 </summary>
+
+```
+>>> a = np.random.randint(0,20,(5))
+>>> a
+array([12, 10, 15, 19, 12])
+ 
+>>> np.gradient(a)
+array([-2. ,  1.5,  4.5, -1.5, -7. ])
+ 
+>>> b = np.random.randint(0,20,(5))
+>>> b
+array([18,  2,  1,  5,  1])
+ 
+>>> np.gradient(b)
+array([-16. ,  -8.5,   1.5,   0. ,  -4. ])
+
+>>> c = np.random.randint(0,50,(3,5))
+>>> c
+array([[24,  2, 12,  1,  7],
+       [10, 14, 27,  1, 39],
+       [42,  3, 30, 46,  5]])
+
+>>> np.gradient(c)
+[array([[-14. ,  12. ,  15. ,   0. ,  32. ],
+       [  9. ,   0.5,   9. ,  22.5,  -1. ],
+       [ 32. , -11. ,   3. ,  45. , -34. ]]), 
+ array([[-22. ,  -6. ,  -0.5,  -2.5,   6. ],
+       [  4. ,   8.5,  -6.5,   6. ,  38. ],
+       [-39. ,  -6. ,  21.5, -12.5, -41. ]])]
+```
+
+</details>  
+  
