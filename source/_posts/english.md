@@ -1728,4 +1728,416 @@ to不定式表示目的语法
         我帮他修车。
       </details>  
 
+*** 
+## 41 原形不定式2 
+#### 感官动词
+* 感官动词see/watch/observe/notice/hear/smell/taste/feel/+ 宾语+ 动词原形/现在分词
+    * +动词原形，表示动作的真实性。
+    * +现在分词，表示动作的连续性，进行性。
+<details>
+  <summary> I saw him work in the garden yesterday. </summary>
+  昨天我看到他在花园里工作。
+</details>  
+<details>
+  <summary> I saw him working in the garden yesterday. </summary>
+  昨天我看见他在花园里工作。
+</details>  
+
+* 和使役动词相似，感官动词后可接过去分词
+    * "感官动词 + 宾语 + 过去分词"
+<details>
+  <summary> John saw the man knocked down by the car. </summary>
+  约翰看见那人被汽车撞倒了。
+</details>  
+
+<details>
+  <summary> I watched a dog running in the garden yesterday. </summary>
+  昨天我看着一条狗在花园里奔跑。
+</details>  
+<details>
+  <summary> I heard Sam sent to the hospital. </summary>
+  听说山姆被送到医院了。
+</details>  
+
+***
+## 42 假设1 
+#### 单纯条件的假设
+* 条件状语从句。用"if"引导条件状语从句，从句为现在时 通常译作"如果"
+<details>
+  <summary> If you get up early you will catch up with the train </summary>
+  如果您起得早，您将赶上火车
+</details>  
+* if 引导的条件状语从句，可以放在句首或句尾。
+<details>
+  <summary> If you ask him,he will help you. </summary>
+  如果你问他，他会帮助你的。
+</details>  
+<details>
+  <summary> She will be upset if you fail the exam. </summary>
+  如果考试不及格，她会很生气。
+</details>  
+
+<details>
+  <summary> If he runs, he will get there in time. </summary>
+  如果他跑步，他会及时到达那里。
+</details>  
+<details>
+  <summary> The cat scratch you if you pull her tail. </summary>
+  如果您拉扯猫的尾巴，猫就会挠您。
+</details>  
+
+*** 
+## 43 假设2
+#### 与现在事实相反的虚拟语气
+* if从句是一种虚拟的条件或假设，和现在事实相反的。主句从句时态具体如下:
+    * 从句： 动词过去式(be 用 were)
+    * 主句： would/could/should/might + 动词原形
+    * <details>
+      <summary> If i were you, I would join them. </summary>
+      如果我是你，我会加入他们
+    </details>  
+    * <details>
+      <summary> She would come with you if you inviten her </summary>
+        如果你邀请她，她会和你一起去
+    </details>  
+
+<details>
+  <summary> If i knew his telephone number, I would tell you </summary>
+  如果我知道他的电话号码，我会告诉你
+</details>  
+<details>
+  <summary> If i had any meney with me, I would lend you some. </summary>
+  如果我有钱，我可以借给你一些。
+</details>  
+<details>
+  <summary> If i were you, i would take an umberella. </summary>
+  如果我是你，我会打伞。
+</details>  
+
+## 44 假设3
+#### 与过去事实相反的虚拟语气
+* if从句是一种虚拟的条件或假设，和过去事实相反的。主句从句时态具体如下:
+    * 从句： had + 动词过去式
+    * 主句： would/could/should/might+have + 动词过去分词
+    * <details>
+      <summary> If I had got there earlier, I should have met her. </summary>
+        如果我早点到那儿，我应该早点见她的。
+    </details>  
+    * <details>
+      <summary> If he had taken my advice, he would not have made such a mistake. </summary>
+        如果他听了我的建议，他就不会犯这样的错误。
+    </details>  
+
+<details>
+  <summary> If he had studied harder, he might have passed the exam. </summary>
+  如果他努力学习，他可能已经通过了考试。
+</details>  
+<details>
+  <summary> If there had been a heavy snow, we should not have go skating. </summary>
+  如果有大雪，我们不应该去滑冰。
+</details>  
+<details>
+  <summary> If i had get there earlier, I would have met her. </summary>
+  如果我早点到那儿，我会见她的。
+</details>  
+
+***
+## 45 假设4
+#### wish/as if + 过去/过去完成时
+* wish后面的从句，翻译为："希望...就好了",是不可能实现的假设
+    * a. 与现在事实相反愿望
+        <details>
+            <summary> I wish I were as tall as you </summary>
+                我希望我和你一样高
+            </details>   
+    * b. 与过去事实相反愿望
+        <details>
+          <summary> He wished he hadn't said that. </summary>
+            他希望自己不要这么说。
+        </details>  
+    * c. 将来不太可能实现的愿望
+        <details>
+          <summary> I wish it would rain tomorrow. </summary>
+            我希望明天会下雨。
+        </details>  
+* as if ， 翻译为"看起来好像..."
+    * a. 如果从句表示与现在事实相反
+        <details>
+          <summary> You look as if you didn't care. </summary>
+            你看起来好像不在乎。
+        </details>  
+    * b. 从句表示与过去事实相反
+        <details>
+          <summary> He talks about Rome as if he had been there before.  </summary>
+            他谈论罗马，就好像他曾经去过那里一样。
+        </details>  
+    * c. 从句表示与将来事实相反
+        <details>
+          <summary> He opened his mouth as if he would say something. </summary>
+            他张开嘴，好像他会说些什么。
+        </details>  
+
+<details>
+  <summary> I wish I were as tall as you. </summary>
+  我希望我和你一样高。
+</details>  
+<details>
+  <summary> He talks as if he knew where she was. </summary>
+  他说话好像他知道她在哪里。
+</details>  
+<details>
+  <summary>  I wish it would rain tomorrow. </summary>
+  我希望明天会下雨。
+</details>  
+
+***
+## 46 定语从句关系代词
+* 定语从句：
+    * 在句中做定语，修饰一个名词或代词，被修饰的名词，叫先行词。其后的从句就是定语从句，有关系词引出。
+* 关系代词：
+    * 在从句中做一定的成分，代替先行词，起到连接先行词和从句的作用，常用关系代词：
+        * that, who, which, whom, whose
+    * <details>
+          <summary> The girl whom/that I spoke to is my cousin. </summary>
+        我与之交谈的那个女孩是我的表弟。
+        </details>  
+* a. 先行词是人的话活that,who, whom.whose来引导定语从句
+    * "whom" 咋从句中做宾语
+    * "who"和"that"在从句中既可作主语又可做宾语
+    * <details>
+      <summary> They are the people that/who were seen yesterday. </summary>
+        他们是昨天见过的人。
+    </details>  
+    * <details>
+      <summary> They are the people whom/that/who I saw yesterday. </summary>
+        他们是我昨天见过的那个人。
+    </details>  
+    * <details>
+      <summary> They are the people whose wallets were lost yesterday. </summary>
+        他们是昨天丢失钱包的人。
+    </details>  
+* b. 先行词是动物/事物的话，用which,that,whose来引定语从句
+    * which, that 在从句中可作主语和宾语，做宾语时可以省略
+    * <details>
+      <summary> He came back for the book which/that he had forgotten </summary>
+         他回来找那本他已经忘记的书
+    </details>
+    * <details>
+      <summary> He come back for the book which/that was on the desk. </summary>
+         他回来找桌上那本书。
+    </details>
+    * <details>
+      <summary> This is the chair whose legs were broken. </summary>
+         这是腿断的椅子。
+    </details>
+
+|指人|指物
+:--:|:--|:--
+主格|who   that|which   that
+宾格|whom   who   that|which   that
+属格|whose|whese
+
+<details>
+  <summary> He was the person who/that join the army that year. </summary>
+  他是那年参军的人。
+</details>  
+<details>
+  <summary> He came back for the book which/that he had forgotten </summary>
+  他回来找那本他已经忘记的书
+</details>  
+<details>
+  <summary> He is the man whose wife is a teacher. </summary>
+  他是妻子为老师的男人。
+</details>  
+
+***
+## 47 定语从句关系副词
+### when,where, why 时间，地点，原因
+* why： 用于修饰表示原因的名词(eg. the reason)
+    * <details>
+      <summary> We don't know the reason why he didn't show up. </summary>
+        我们不知道他不出现的原因。
+    </details>  
+* when: 修饰表示时间的名词 (eg. next week)
+    * <details>
+          <summary> We'll put off the picnic until next week, when the weather may be better  </summary>
+        我们将野餐推迟到下周，届时天气可能会好些
+        </details>  
+* where: 修饰表示地点的名词 (eg. the place )
+    * <details>
+          <summary> We don't know the place where he lives. </summary>
+        我们不知道他住的地方。
+        </details>  
+
+<details>
+  <summary> He works in a factory where TV sets are made. </summary>
+  他在制造电视机的工厂里工作。
+</details>  
+<details>
+  <summary> She didn't tell me the reason why she refused the offer. </summary>
+  她没有告诉我她拒绝这份工作的原因。
+</details>  
+ 
+***
+## 48 宾语从句 连词
+* 宾语从句: 在句子中齐宾语作用的从句
+* 从属连词: what, if, whether
+    * <details>
+      <summary> He said that he was there yesterday. </summary>
+        他说他昨天在那里。
+    </details>  
+    * <details>
+      <summary> He doesn't know if/whether he was there. </summary>
+        他不知道他是否在那儿。
+    </details>  
+* 连接代词: who, whom, whose, what
+    * <details>
+      <summary> Do you know who has won the game?  </summary>
+        你知道谁赢了比赛吗？
+    </details>  
+    * <details>
+      <summary> Do you know whom he likes? </summary>
+        你知道他喜欢谁吗？
+    </details>  
+    * <details>
+      <summary> Do you know whose book it is?  </summary>
+        你知道那是谁的书吗？
+    </details>  
+    * <details>
+      <summary> Do you know what he is looking at? </summary>
+        你知道他在看什么吗？
+    </details>  
+
+* 连接副词: when, where, why, how
+    * <details>
+      <summary> He wants to know when the party is. </summary>
+        他想知道聚会的时间。
+    </details>  
+    * <details>
+      <summary> He wants to know where the party is. </summary>
+        他想知道聚会在哪里。
+    </details>  
+    * <details>
+      <summary> He wants to know why they have a party. </summary>
+        他想知道他们为什么要开派对。
+    </details>  
+    * <details>
+      <summary> He wants to know how they come. </summary>
+        他想知道它们是怎么来的。
+    </details>  
+
+
+<details>
+  <summary> He told me that he would go to college the next year </summary>
+  他告诉我明年要上大学
+</details>  
+<details>
+  <summary> He doesn't know that she is at school. </summary>
+  他不知道她在学校。
+</details>  
+<details>
+  <summary> He wants to know where she is. </summary>
+  他想知道她在哪里。
+</details>  
+<details>
+  <summary> He wants to know why she comes. </summary>
+  他想知道她为什么来。
+</details>  
+<details>
+  <summary> He wants to know what she is reading. </summary>
+  他想知道她在读什么。
+</details>  
+<details>
+  <summary> He wants to know whose book it is. </summary>
+  他想知道这是谁的书。
+</details>  
+
+*** 
+## 49 比较级&最高级
+* #### 通常在形容词和副词后加 "er" "est"
+  * hard - harder - the hardest
+  * 硬 - 更硬  - 最硬
+  
+* #### 词尾是不发音的单音节 "e"时，加 "r" "st"
+  * nice - nicer - the nicest
+  * 很好-更好-最好
+ 
+* #### 词尾是辅音 +y 的双音节时，去掉 "y" 加 "ier" "iest"
+  * dry - drier - the driest
+  * 干-干燥-最干燥
+ 
+* #### 以一个辅音结尾的重读闭音节时，双写最后一个字，加 "er" "est"
+  * hot - hotter - the hottest
+  * 热-更热-最热
+ 
+* #### 多音节和双音节, 在形容词和副词前加
+  * 程度加强: more - the most 
+  * 程度减弱: less - the least
+  * interesting - more interesting - the most interesting
+  * 有趣-更有趣-最有趣
+  * interesting - less interesting - the least interesting
+  * 有趣-不太有趣-最少有趣
+ 
+* ####  不规则变化: 
+  * good - better - the best
+  * 好-更好-最好
+  * many - more - the most
+  * 很多-更多-最
+
+
+原形|更高级|最高级|翻译
+:--|:--|:--|:--
+high|higher|the highest|高-较高-最高
+late|later|the latest| 晚-后来-最新
+heavy| heavier | the heaviest|重-非常重-最重
+thin | thinner | thinnest|薄-更薄-最薄
+famous|more famous | the more famous| 著名-更著名-最著名
+little| less | the least|少-更少-最少
+
+***
+## 50 比较级&最高级
+* 形容词或副词的比较级: 表示 "比较..."
+    * <details>
+      <summary> He is taller than his brother. </summary>
+    他比哥哥高。
+    </details>  
+    * <details>
+      <summary> The book is more expensive than the pen. </summary>
+    这本书比笔还贵。
+    </details>  
+    * <details>
+      <summary> Her English is better than his. </summary>
+    她的英语比他的英语好。
+    </details>  
+* 形容词的最高级: 表示"最..."
+    * <details>
+  <summary> He is the tallest in his class. </summary>
+      他是班上最高的。
+</details>  
+    * <details>
+  <summary> The book is the most expensive of the three. </summary>
+      这本书是三本书中最昂贵的。
+</details>  
+    * <details>
+  <summary> Her English is the best among the three. </summary>
+      她的英语是三门课中最好的。
+</details>  
+
+<details>
+  <summary> The girl is cleverer than the boy.  </summary>
+  这个女孩比男孩聪明。
+</details>  
+<details>
+  <summary> The computer is the most expensive among the three. </summary>
+  这台电脑是三者中最昂贵的。
+</details>  
+<details>
+  <summary> The man is healthier than his wife. </summary>
+  这个男人比他的妻子更健康。
+</details>  
+
+
+
+
+
 

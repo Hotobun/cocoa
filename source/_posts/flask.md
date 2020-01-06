@@ -143,8 +143,8 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 限制了16M 超出会抛
 ***
 ##  静态文件  
 render_template 和 url_for 的应用:  
-![flask3](/archive_img/flask3.png)
-![flask4](/archive_img/flask4.png)
+![flask3](/img/archive_img/flask3.png)
+![flask4](/img/archive_img/flask4.png)
 
 html模版语言中  
 ```
