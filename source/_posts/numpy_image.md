@@ -1,5 +1,5 @@
 ---
-title: Numpy处理
+title: Numpy图像处理
 date: 2020-1-06 18:01:33
 tags: 
 - python
@@ -9,7 +9,7 @@ categories:
 cover: /img/numpy_image.jpg
 ---
 
-图像的RGB色彩模式  
+## 图像的RGB色彩模式  
 RGB三个颜色捅到的变化和叠加得到各种颜色，其中：  
 * R红色, 取值范围, 0-255  
 * G绿色, 取值范围, 0-255  
@@ -71,6 +71,42 @@ array([[[0, 0, 0, 0],
 ```
 
 合成后的图片  
-为什么位置这么好？ 因为我在ps上先摆好位置了 前面的像素空白填充占位  
+为什么位置这么好？ 因为我在ps上先摆好位置了 前面用空白填充占位  
 技术渣 一看就知道合成的 边缘无解
 ![](/img/archive_img/numpy_new_miku.jpg)
+
+
+***
+## 图像变换
+有了上面知识之后 我们可以对图像做更多的处理
+``` python
+from PIL import Image
+import numpy as np 
+ 
+def func1():
+    new = [255,255,255] - np.array(miku_img)
+    Image.fromarray(new.astype('uint8')).save("miku1.jpg")
+ 
+def func2():
+    miku = np.array(miku_img.convert("L"))
+    new = 255 - miku
+    Image.fromarray(new.astype('uint8')).save("miku2.jpg")
+ 
+def func3():
+    new = (100/255) * np.array(miku_img) + 150
+    Image.fromarray(new.astype('uint8')).save("miku3.jpg")
+ 
+def main():
+    func1()
+    func2()
+    func3() 
+ 
+if __name__ == "__main__":
+    miku_img = Image.open("miku.jpg")
+    main()
+```
+
+不知道叫什么图 直接放出来做对比吧 分别对应func1、func2、func3
+![](/img/archive_img/miku1.jpg)
+![](/img/archive_img/miku2.jpg)
+![](/img/archive_img/miku3.jpg)
