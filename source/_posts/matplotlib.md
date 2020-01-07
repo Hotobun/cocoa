@@ -477,4 +477,62 @@ if __name__ == "__main__":
  
 ![matplotlib14](/img/archive_img/matplotlib14.png)
 
+***
+### 绘制引力波
+> 摘自百度  
+>在物理学中，引力波是指时空弯曲中的涟漪，通过波的形式从辐射源向外传播，这种波以引力辐射的形式传输能量。在1916年，爱因斯坦基于广义相对论预言了引力波的存在。引力波的存在是广义相对论洛伦兹不变性的结果，因为它引入了相互作用的传播速度有限的概念。相比之下，引力波不能够存在于牛顿的经典引力理论当中，因为牛顿的经典理论假设物质的相互作用传播是速度无限的。 
 
+
+<details>
+  <summary> 引力波代码 </summary>
+
+两个wav文件是在 [python123.io](https://python123.io/dv/grawave.html) 下载的
+
+``` python
+import numpy as np 
+import matplotlib.pyplot as plt 
+from scipy.io import wavfile 
+  
+def main():
+    """
+    这是啥 
+    """
+    # wavfile读取速率与数据
+    rate_h, hstrain = wavfile.read(r'H1_Strain.wav', 'rb')
+    rate_l, lstrain = wavfile.read(r'L1_Strain.wav', 'rb')
+    # reftime, ref_H1 = np.genfromtxt("wf_template.txt").transpose  # 模版用不了
+  
+    htime_interval = 1/rate_h
+    ltime_interval = 1/rate_l
+  
+    htime_len = hstrain.shape[0]/rate_h
+    htime = np.arange(-htime_len/2, htime_len/2, htime_interval)
+    ltime_len = lstrain.shape[0]/rate_l
+    ltime = np.arange(-ltime_len/2, ltime_len/2, ltime_interval)
+  
+    fig = plt.figure(figsize=(12, 6))
+  
+    plth = fig.add_subplot(211)
+    plth.plot(htime, hstrain)
+    plth.set_xlabel("Time (seconds)")
+    plth.set_ylabel( "H1 Strain")
+    plth.set_title("H1 Strain")
+ 
+    plth = fig.add_subplot(212)
+    plth.plot(ltime, lstrain, )
+    plth.set_xlabel("Time (seconds)")
+    plth.set_ylabel("L1 Strain")
+    plth.set_title("L1 Strain")
+  
+    fig.tight_layout()
+    plt.show()
+    plt.close(fig)
+  
+if __name__ == "__main__":
+    main()
+```
+
+</details>  
+  
+
+![引力波](/img/archive_img/matplotlib_grawave.png)
