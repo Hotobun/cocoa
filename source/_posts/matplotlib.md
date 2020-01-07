@@ -72,11 +72,16 @@ if __name__ == "__main__":
 *** 
 ## plot函数
 * plt.plot(x, y, fromat_string, **kwargs)
-  * x : X轴数据, 列表或数组, 可选。
+  * x : X轴数据, 列表或数组, 可选。当绘制多条曲线时, x不能省略
   * y : Y轴数据, 列表或数组.
   * format_string : 控制曲线的格式字符串, 可选。
   * **kwargs : 第二组或更多(x, y, fromat_string) 
-  * 当绘制多条曲线时, x不能省略
+    * color : 控制颜色, color = "green"
+    * linestyle : 线条风格, linestyle = "dashed"
+    * marker : 标记风格, marker = 'o'
+    * markerfacecolor : 标记颜色, markerfacecolor = "blue"
+    * markersize : 标记尺寸, markersize = 20
+    * ...
 
 尝试画4条曲线
 ```python
@@ -159,3 +164,317 @@ y -> format_string: 21 -> k-|     22 -> b--_
 ```
  
 ![matplotlib6](/img/archive_img/matplotlib6.png)
+
+
+*** 
+## pyplot的中文显示  
+#### 第一种方法  
+pyplot并不默认支持中文显示, 需要rcParams修改字体实现
+``` python
+import matplotlib
+import matplotlib.pyplot as plt 
+ 
+if __name__ == "__main__":
+    matplotlib.rcParams['font.family'] = 'SimHei'
+    plt.plot([3,1,4,5,2])
+    plt.ylabel("纵轴")
+    plt.show()
+```
+![matplotlib7](/img/archive_img/matplotlib7.png)
+
+rcParams的属性 
+
+属性|说明 
+:--|--
+"font.family"|用于显示字体的名字
+"font.style"|字体风格, 正常"normal" 或 斜体 "italic"
+"font.size"|字体大小, 整数字号或"large"、"x-small"
+
+目前只有中文黑体和楷体可以用 稍后研究  
+
+中文字体|说明 
+:--|:--
+"SimHei"|中文黑体
+"Kaiti"|中文楷体
+"LiSu"|中文隶书
+"FangSong"|中文仿宋
+"YouYuan"|中文幼圆
+"STSong"|华文宋体
+
+``` python
+import numpy as np 
+import matplotlib.pyplot as plt 
+import matplotlib 
+ 
+def main():
+    matplotlib.rcParams['font.family'] = "Kaiti"
+    matplotlib.rcParams['font.size'] = 10
+ 
+    a = np.arange(0.0, 5.0, 0.02)
+ 
+    plt.xlabel("横轴：时间")
+    plt.ylabel("纵轴：振幅")
+    plt.plot(a, np.cos(2*np.pi*a), "r--")
+    plt.show()
+ 
+if __name__ == "__main__":
+    main()
+```
+
+![matplotlib8](/img/archive_img/matplotlib8.png)
+
+#### 第二种方法 推荐 
+在有中文输出的地方, 增加一个属性: fontproperties  
+``` python
+import numpy as np 
+import matplotlib.pyplot as plt 
+ 
+def main():
+    a = np.arange(0.0, 5.0, 0.02)
+ 
+    plt.xlabel("横轴：时间", fontproperties="Kaiti", fontsize = 14)
+    plt.ylabel("纵轴：振幅", fontproperties="SimHei", fontsize = 11)
+    plt.plot(a, np.cos(2*np.pi*a), "r") # ??? 
+    plt.show()
+ 
+if __name__ == "__main__":
+    main()
+```
+![matplotlib9](/img/archive_img/matplotlib9.png)
+
+***
+## pyplot的文本显示函数
+
+函数|说明 
+:--|:--
+plt.xlabel()|对X轴增加文本标签
+plt.ylabel()|对Y轴增加文本标签
+plt.title()|对圆形整体增加文本标签
+plt.text()|在任意位置增加文本
+plt.annotate()|在图形中增加带箭头的注释
+plt.grid(True)|图层显示网格
+
+plt.annotate函数参数  
+plt.annotate(s, xy= arrow_crd, xytext=text_crd, arrowprops=dict)
+  * s : 表示要注解的字符串
+  * xy : 箭头所在的位置
+  * xytext ： 文本显示的位置
+  * arrowprops : 字典 定义了整个箭头的属性
+
+``` python
+import numpy as np 
+import matplotlib.pyplot as plt 
+ 
+def main():
+    a = np.arange(0.0, 5.0, 0.02)
+    plt.plot(a, np.cos(2*np.pi*a), 'r--')
+ 
+    plt.xlabel("横轴：时间", fontproperties="SimHei", fontsize=13, color="blue")
+    plt.ylabel("纵轴：振幅", fontproperties="SimHei", fontsize=13)
+    plt.title(r"正弦波实例 $y=cos(2\pi x)$",fontproperties="SimHei", fontsize = 15 )
+    plt.text(4, 1, r"$\mu=100$", fontsize = 13)
+     
+    plt.annotate(r'$\mu=100$', xy=(2, 1), xytext=(3, 1.5), arrowprops=dict(facecolor="black", shrink=0.1, width=2))
+ 
+    plt.axis([-1, 6, -2, 2 ])
+    plt.grid(True)
+    plt.show()
+ 
+if __name__ == "__main__":
+    main()
+```
+
+![matplotlib10](/img/archive_img/matplotlib10.png)
+
+***
+## pyplot的子绘图区域
+#### 使用函数 plt.subplot21grid()
+plt.subplot2grid(GridSpec, CurSpec, colspan=1, rowspan=1)
+  * 理念: 设定网格, 选中网格, 确定选中行列区域数量,  编号从0开始
+  * GridSpec : type tuple 把图层分为几行几列
+  * CurSpec : type tuple 选择第几个位置 
+  * colspan : 横向占用几个区域
+  * rowspan : 纵向占用几个区域
+
+``` python 
+import numpy as np 
+import matplotlib.pyplot as plt 
+ 
+def main():
+    a = np.arange(0.0, 5.0, 0.02)
+ 
+    # (3,3) 绘图区域分为 3*3 共9个区域
+    plt.subplot2grid((3,3), (0,0), colspan=3)   # (0,0) 选择第0行第0列 colspan 横向占3个区域 就是第一行都是这个图
+    plt.plot(a, np.cos(2*np.pi*a), 'r--')       # 红色虚线
+ 
+    plt.subplot2grid((3,3), (1,0), colspan=2)   # (1,0) 选择第1行第0列 colspan 横向占2个区域
+    plt.plot(a, np.cos(2*np.pi*a), 'b-.')       # 蓝色虚线
+ 
+    plt.subplot2grid((3,3), (1,2), rowspan=2)   # (1,2) 选择第1行第2列 rowspan 纵向占2个区域
+    plt.plot(a, np.cos(2*np.pi*a), 'g' )        # 绿色实线
+ 
+    plt.subplot2grid((3,3), (2,0))              # (2,0) 选择第2行第0列 后面不再填参数默认为1 占一个区域
+    plt.plot(a, np.cos(2*np.pi*a),  'k' )       # 黑色实线
+ 
+    plt.subplot2grid((3,3), (2,1))              # (2,1) 选择第2行第1列
+    plt.plot(a, np.cos(2*np.pi*a), 'm' )        # 洋红色实线
+ 
+    plt.show()
+ 
+if __name__ == "__main__":
+    main()
+```
+
+![matplotlib11](/img/archive_img/matplotlib11.png)
+
+#### 使用 gridspec.GridSpec类 效果同上图
+``` python 
+import matplotlib.gridspec as gridspec 
+import matplotlib.pyplot as plt
+import numpy as np
+  
+def main():
+    a = np.arange(0.0, 5.0, 0.02)
+ 
+    # 将图层分成3*3的子区域
+    gs = gridspec.GridSpec(3,3)
+    # 使用gs切片选择绘图区域
+    plt.subplot(gs[0,:])
+    plt.plot(a, np.cos(2*np.pi*a), 'r--')
+ 
+    plt.subplot(gs[1,:-1])
+    plt.plot(a, np.cos(2*np.pi*a), 'b-.')
+ 
+    plt.subplot(gs[1:,-1])
+    plt.plot(a, np.cos(2*np.pi*a), 'g' ) 
+ 
+    plt.subplot(gs[2,0])
+    plt.plot(a, np.cos(2*np.pi*a),  'k' )
+ 
+    plt.subplot(gs[2,1])
+    plt.plot(a, np.cos(2*np.pi*a), 'm' )
+ 
+    plt.show()
+ 
+if __name__ == "__main__":
+    main()
+```
+
+*** 
+## pyplot常用基础图表函数
+
+函数|说明| 
+:--|:--|
+plt.plot(x, y, fmt, ...)|绘制一个坐标图
+plt.boxplot(data, notch, position)|绘制一个箱形图
+plt.bar(left, height, width, bottom)|绘制一个条形图
+plt.barh(width, bottom, left, height)|绘制一个横向条形图
+plt.polar(theta, r) | 绘制极坐标图(这是啥)
+plt.pie(data,  explode)|绘制饼图
+plt.psd(x, NFFT=256, pad_to, Fs) | 绘制功率谱密度图
+plt.specgram(x, NFFT=256, pad_to, Fs)|绘制谱图
+plt.eohere(x, y, NFFT=256, Fs) | 绘制X-Y相关性图
+plt.scatter(x, y) | 绘制散点图, 其中 x和y长度相同
+plt.step(x, y, where) | 绘制步阶图
+plt.hist(x, bins, normed) | 绘制直方图
+plt.contour(X, Y, Z, N) | 绘制等值图
+plt.vlines() | 绘制垂直图
+plt.stem(x, y, linefmt, markerfmt)|绘制火柴图
+plt.plot_date()|绘制数据日期
+
+*** 
+### 绘制饼图 
+
+<details>
+  <summary> 饼图代码 </summary>
+
+``` python
+import matplotlib.pyplot as plt 
+ 
+def main():
+    labels = "Frogs", "Hogs", "Dogs", "Logs"
+    sizes  = [15, 30, 45, 10]
+    explode= (0, 0.1, 0, 0)
+ 
+    plt.pie(sizes, explode = explode, labels = labels,\
+        autopct = "%1.1f%%", shadow = False, startangle = 90)
+    plt.show() 
+ 
+if __name__ == "__main__":
+    main()
+```
+
+</details>  
+
+![matplotlib12](/img/archive_img/matplotlib12.png)
+
+***
+### 绘制直方图 
+
+<details>
+  <summary> 直方图代码 </summary>
+
+plt.hist(array, bin, 后面不知道)
+* array : 直方图数据 
+* bin : 直方的个数
+* normed : 
+    * 等于1时 将每一个直方中出现元素的个数规划为出现的概率 ？？？？？
+    * 如果等于0 纵坐标就是直方区域中间出现的元素个数   ？？？？？
+
+
+``` python
+import numpy as np 
+import matplotlib.pyplot as plt 
+ 
+def main():
+    np.random.seed(233)
+    mu, sigma = 100, 20 # 均值和标准差
+    a = np.random.normal(mu, sigma, size = 100)
+ 
+    plt.hist(a, 40, normed = 0, histtype = "stepfilled", facecolor = "b", alpha = 0.75)
+    plt.title('Histogram')
+ 
+    plt.show()
+ 
+if __name__ == "__main__":
+    main()
+```
+
+</details>  
+
+![matplotlib13](/img/archive_img/matplotlib13.png)
+
+***
+### 绘制极坐标图
+
+<details>
+  <summary> 极坐标图代码 </summary>
+
+``` python
+import numpy as np 
+import matplotlib.pyplot as plt 
+ 
+def main():
+    N = 30
+    theta = np.linspace(0.0, 2 * np.pi, N, endpoint=False)
+    radii = 10 * np.random.rand(N)
+    width = np.pi / 4 * np.random.rand(N)
+ 
+    ax = plt.subplot(111, projection = 'polar')
+    bars = ax.bar(theta, radii, width = width, bottom = 0.0)
+ 
+    for r, bar in zip(radii, bars):
+        bar.set_facecolor(plt.cm.viridis(r / 10.))
+        bar.set_alpha(0.5)
+     
+    plt.show()
+ 
+if __name__ == "__main__":
+    main()
+```
+
+</details>  
+ 
+![matplotlib14](/img/archive_img/matplotlib14.png)
+
+
