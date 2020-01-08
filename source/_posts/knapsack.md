@@ -6,7 +6,7 @@ tags:
 - c语言
 - python
 categories: 算法
-cover: /img/knapsack.png
+cover: /img/knapsack.jpg
 ---
 
 有n个物品，它们有各自的体积和价值，现有给定容量20的背包，如何让背包里装入的物品具有最大的价值总和？  

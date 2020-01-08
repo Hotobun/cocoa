@@ -5,7 +5,7 @@ tags:
 - python
 - mysql 
 categories: 数据库 
-cover: /img/sqlalchemy.png
+cover: /img/sqlalchemy.jpg
 ---
 
 ## 使用SQLAlchemy去连接数据库：

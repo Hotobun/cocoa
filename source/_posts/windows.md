@@ -2,7 +2,7 @@
 title: windows
 date: 2019-12-05 01:08:55
 tags: windows 
-cover: /img/windows.png
+cover: /img/windows.jpg
 ---
 
 ## win32api  

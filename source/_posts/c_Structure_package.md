@@ -3,7 +3,7 @@ title: C语言结构体封装
 date: 2019-12-04 23:00:51
 tags: c语言
 categories: 基础
-cover: img/c_encapsulation.png
+cover: img/c_encapsulation.jpg
 ---
 
 ### main.c

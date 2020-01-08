@@ -1,11 +1,11 @@
 ---
-title: 数据库基础操作
+title: MySql
 tags:
   - mysql
 categories:
   - 基础
 date: 2019-12-04 17:51:56
-cover: /img/mysql.png
+cover: /img/mysql.jpg
 ---
 
 ## 创建数据库

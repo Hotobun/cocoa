@@ -3,7 +3,7 @@ title: linux笔记
 date: 2019-12-04 23:35:17
 tags: linux
 categories: 基础
-cover: /img/aliyun.png
+cover: /img/linux.jpg
 ---
 ## 常用命令
 注意权限 适当添加`sudo`或切换至`root`

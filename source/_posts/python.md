@@ -1,9 +1,9 @@
 ---
-title: python常用
+title: python 
 date: 2019-12-04 23:34:16
 tags: python 
 categories: 基础 
-cover: /img/python.png
+cover: /img/python.jpg
 ---
 
 ## 进制转换：

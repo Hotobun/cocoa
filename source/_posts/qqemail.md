@@ -4,7 +4,7 @@ date: 2019-12-19 21:12:51
 tags: 
 - email
 categories:
-cover: /img/qqemail.png
+cover: /img/qqemail.jpg
 ---
 
 在WordPress注册时 发送的邮件在QQ邮箱上无法查收

@@ -5,7 +5,7 @@ tags:
 - python
 - flask 
 categories: 网络 
-cover: /img/flask.png
+cover: /img/flask.jpg
 ---
 
 ## 建立第一个项目

@@ -5,7 +5,7 @@ tags:
 - git
 - linux
 categories:
-cover: /img/gitbare.png
+cover: /img/gitbare.jpg
 ---
 
 [git钩子文档](https://git-scm.com/book/zh/v2/自定义-Git-Git-钩子)  
