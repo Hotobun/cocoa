@@ -980,3 +980,370 @@ dtype: bool
   
   
 ***
+## 数据的排序
+对一组数据的理解  
+一组数据表达一个或多个含义  
+摘要: 有损地踢出数据特征的过程
+* 基本统计(含排序)
+* 分布/累计统计
+* 数据特征 相关性、周期性等
+* 数据挖掘(形成知识)
+
+#### 对索引排序
+sort_index()方法在指定的轴上根据索引进行排序 默认升序。
+sort_values()方法在指定的轴上根据数据进行排序 默认升序
+
+.sort_index(axis = 0, ascending=True)
+Series.sort_values(by, axis=0, ascending=True)
+DataFrame.sort_values(by, axis=0, ascending=True)
+* by : axis轴上的某个索引或索引列表
+* ascending : 为True时 递增排序
+
+<details>
+  <summary> 对DataFrame对象的索引排序栗子 </summary>
+
+``` python
+>>> b = pd.DataFrame(np.arange(20).reshape(4,5),index = [x for x in "cadb"])
+>>> b
+    0   1   2   3   4
+c   0   1   2   3   4
+a   5   6   7   8   9
+d  10  11  12  13  14
+b  15  16  17  18  19
+ 
+>>> b.sort_index()
+    0   1   2   3   4
+a   5   6   7   8   9
+b  15  16  17  18  19
+c   0   1   2   3   4
+d  10  11  12  13  14
+ 
+>>> b.sort_index(ascending=False)
+    0   1   2   3   4
+d  10  11  12  13  14
+c   0   1   2   3   4
+b  15  16  17  18  19
+a   5   6   7   8   9
+ 
+>>> b.sort_index(axis=1, ascending=False)
+    4   3   2   1   0
+c   4   3   2   1   0
+a   9   8   7   6   5
+d  14  13  12  11  10
+b  19  18  17  16  15
+```
+
+</details>  
+  
+<details>
+  <summary> 对DateFrame对象的数据排序栗子 </summary>
+
+``` python
+>>> b = pd.DataFrame(np.arange(20).reshape(4,5),index = [x for x in "cadb"])
+>>> b
+    0   1   2   3   4
+c   0   1   2   3   4
+a   5   6   7   8   9
+d  10  11  12  13  14
+b  15  16  17  18  19
+ 
+>>> c = b.sort_values(2, ascending = False)
+>>> c
+    0   1   2   3   4
+b  15  16  17  18  19
+d  10  11  12  13  14
+a   5   6   7   8   9
+c   0   1   2   3   4
+
+>>> c.sort_values('a', axis = 1, ascending = False)
+    4   3   2   1   0
+b  19  18  17  16  15
+d  14  13  12  11  10
+a   9   8   7   6   5
+c   4   3   2   1   0
+```
+
+</details>  
+  
+<details>
+  <summary> NaN统一放到排序末尾 </summary>
+
+``` python
+>>> a = pd.DataFrame(np.arange(12).reshape(3,4), index = [x for x in "abc"])
+>>> a
+   0  1   2   3
+a  0  1   2   3
+b  4  5   6   7
+c  8  9  10  11
+ 
+>>> b = pd.DataFrame(np.arange(20).reshape(4,5),index = [x for x in "cadb"])
+>>> b
+    0   1   2   3   4
+c   0   1   2   3   4
+a   5   6   7   8   9
+d  10  11  12  13  14
+b  15  16  17  18  19
+ 
+>>> c = a + b
+>>> c
+      0     1     2     3   4
+a   5.0   7.0   9.0  11.0 NaN
+b  19.0  21.0  23.0  25.0 NaN
+c   8.0  10.0  12.0  14.0 NaN
+d   NaN   NaN   NaN   NaN NaN
+ 
+>>> c.sort_values(2, ascending = False)
+      0     1     2     3   4
+b  19.0  21.0  23.0  25.0 NaN
+c   8.0  10.0  12.0  14.0 NaN
+a   5.0   7.0   9.0  11.0 NaN
+d   NaN   NaN   NaN   NaN NaN
+ 
+>>> c.sort_values(2, ascending = True)
+      0     1     2     3   4
+a   5.0   7.0   9.0  11.0 NaN
+c   8.0  10.0  12.0  14.0 NaN
+b  19.0  21.0  23.0  25.0 NaN
+d   NaN   NaN   NaN   NaN NaN
+```
+
+</details>  
+  
+***
+## 数据的基本统计分析
+基本的统计分析函数  
+
+* 适用于Series和DataFrame类型
+
+方法|说明 
+:--|:--
+.sum()|计算数据的总和 按0轴计算 下同
+.count()|非NaN值的数量
+.mean() .median() | 计算数据的算术平均值、算术中位数
+.var()  .std() | 计算数据的方差、标准差
+.min() .max() | 计算数据的最小值、最大值
+.describe() | 针对0轴(各列)的统计汇总
+
+* 适用于Series类型
+
+方法|说明 
+:--|:--
+.argmin() .argmax()|计算数据最大值、最小值所在位置的索引位置(自动索引)
+.idxmin() .idxmax()|计算数据最大值、最小值所在位置的索引(自定义索引)
+
+<details>
+  <summary> Series.describe() 栗子 </summary>
+
+``` python
+>>> a = pd.Series([9,8,7,6], index = [x for x in "abcd"])
+>>> a
+a    9
+b    8
+c    7
+d    6
+dtype: int64
+ 
+>>> a.describe()
+count    4.000000
+mean     7.500000
+std      1.290994
+min      6.000000
+25%      6.750000
+50%      7.500000
+75%      8.250000
+max      9.000000
+dtype: float64
+ 
+>>> type(a.describe())
+<class 'pandas.core.series.Series'>
+ 
+>>> a.describe()['count']
+4.0
+ 
+>>> a.describe()['max']
+9.0
+```
+
+</details>  
+  
+  
+<details>
+  <summary> DataFrame.describe() 栗子 </summary>
+
+``` python
+>>> b = pd.DataFrame(np.arange(20).reshape(4,5), index = [x for x in "cadb"])
+>>> b
+    0   1   2   3   4
+c   0   1   2   3   4
+a   5   6   7   8   9
+d  10  11  12  13  14
+b  15  16  17  18  19
+ 
+>>> b.describe()
+               0          1          2          3          4
+count   4.000000   4.000000   4.000000   4.000000   4.000000
+mean    7.500000   8.500000   9.500000  10.500000  11.500000
+std     6.454972   6.454972   6.454972   6.454972   6.454972
+min     0.000000   1.000000   2.000000   3.000000   4.000000
+25%     3.750000   4.750000   5.750000   6.750000   7.750000
+50%     7.500000   8.500000   9.500000  10.500000  11.500000
+75%    11.250000  12.250000  13.250000  14.250000  15.250000
+max    15.000000  16.000000  17.000000  18.000000  19.000000
+ 
+>>> type(b.describe())
+<class 'pandas.core.frame.DataFrame'>
+ 
+ # ix已弃用 新版使用 .loc
+>>> b.describe().loc['max']
+0    15.0
+1    16.0
+2    17.0
+3    18.0
+4    19.0
+Name: max, dtype: float64
+
+>>> b.describe()[2]
+count     4.000000
+mean      9.500000
+std       6.454972
+min       2.000000
+25%       5.750000
+50%       9.500000
+75%      13.250000
+max      17.000000
+Name: 2, dtype: float64
+```
+
+</details>  
+  
+  
+***
+## 数据的累计统计分析
+#### 基本统计函数
+* 适用于Series和DataFrame类型
+
+方法|说明 
+:--|:--
+.cumsum()|一次给出前1、2、...、n个数的和
+.cumprod()|一次给出前1、2、...、n个数的积
+.cummax()|一次给出前1、2、...、n个数的最大值
+.cummin()|一次给出前1、2、...、n个数的最小值
+
+<details>
+  <summary> 举个栗子 </summary>
+
+``` python
+>>> b = pd.DataFrame(np.arange(20).reshape(4,5), index = [x for x in "cadb"])
+>>> b
+    0   1   2   3   4
+c   0   1   2   3   4
+a   5   6   7   8   9
+d  10  11  12  13  14
+b  15  16  17  18  19
+ 
+>>> b.cumsum()
+    0   1   2   3   4
+c   0   1   2   3   4
+a   5   7   9  11  13
+d  15  18  21  24  27
+b  30  34  38  42  46
+ 
+>>> b.cumprod()
+   0     1     2     3     4
+c  0     1     2     3     4
+a  0     6    14    24    36
+d  0    66   168   312   504
+b  0  1056  2856  5616  9576
+ 
+>>> b.cummin()
+   0  1  2  3  4
+c  0  1  2  3  4
+a  0  1  2  3  4
+d  0  1  2  3  4
+b  0  1  2  3  4
+ 
+>>> b.cummax()
+    0   1   2   3   4
+c   0   1   2   3   4
+a   5   6   7   8   9
+d  10  11  12  13  14
+b  15  16  17  18  19
+```
+
+</details>  
+  
+  
+#### 滚动计算函数
+* 适用于Series和DataFrame类型
+
+方法|说明 
+:--|:--
+.rolling(w).sum()| 依次计算相邻w个元素的和
+.rolling(w).mean()| 依次计算相邻w个元素的算术平均值
+.rolling(w).var()| 依次计算相邻w个元素的方差
+.rolling(w).std()| 依次计算相邻w个元素的标准差
+.rolling(w).min() .max()| 依次计算相邻w个元素的最小值和最大值
+ 
+  
+<details>
+  <summary> 举个栗子 </summary>
+
+``` python
+>>> b = pd.DataFrame(np.arange(20).reshape(4,5), index = [x for x in "cadb"])
+>>> b
+    0   1   2   3   4
+c   0   1   2   3   4
+a   5   6   7   8   9
+d  10  11  12  13  14
+b  15  16  17  18  19
+
+>>> b.rolling(2).sum()    # 21.0 是 8+13
+      0     1     2     3     4
+c   NaN   NaN   NaN   NaN   NaN
+a   5.0   7.0   9.0  11.0  13.0
+d  15.0  17.0  19.0  21.0  23.0
+b  25.0  27.0  29.0  31.0  33.0
+
+>>> b.rolling(3).sum()    # 42 是 19 + 14 + 9
+      0     1     2     3     4
+c   NaN   NaN   NaN   NaN   NaN
+a   NaN   NaN   NaN   NaN   NaN  # 前方加自己不满足w 3行 所以NaN
+d  15.0  18.0  21.0  24.0  27.0
+b  30.0  33.0  36.0  39.0  42.0
+```
+
+</details>  
+  
+  
+***
+## 数据的相关分析
+#### 相关分析概念
+* 两个事物 表示为 X Y , 如何判断他们之间的相关性？
+    * X增大 Y也增大 两个变量正相关。
+    * X增大 Y减小 两个变量负相关
+    * X增大 Y无视 两个变量无相关
+
+#### 如何度量两个事物的相关性
+协方差
+* 协方差 > 0 , X和Y正相关。
+* 协方差 < 0 , X和Y负相关。
+* 协方差 = 0 , X和Y独立无关。
+
+Pearson相关系数
+怎么写数学公式啊
+r 取值范围[-1,1]
+越大越强相关性 反之越小
+
+#### 相关性分析函数
+
+方法|说明 
+:--|:--
+.cov()|计算协方差矩阵
+.corr()|计算相关系数矩阵, Pearson、Speraman、Kendall等系数
+
+## 总结
+一组数据的摘要
+* 排序 .sort_index() .sort_values()
+* 基本统计函数 .describe()
+* 累计统计函数 .cum*() .rolling().\*()
+* 相关性分析 .corr() .cov()
