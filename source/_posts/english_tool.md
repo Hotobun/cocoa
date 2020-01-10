@@ -2,7 +2,7 @@
 title: 工地英语学习工具
 date: 2020-1-09 11:01:22
 tags: 
-- english
+- English
 - python
 - tkinter
 - mysql
